@@ -1,0 +1,13 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+#head {
+  position: absolute;
+  width: 100%; }
+
+#topnavbar {
+  background-color: #f9f9f9ff; }
+
+#sidenavbar {
+  background-color: #f2f2f2ff; }

@@ -1,0 +1,32 @@
+$black-blue: #080e16ff;
+$dark-blue1: #0f2d55ff;
+$dark-blue2: #14478cff;
+$light-blue1: #007ac8ff;
+$light-blue2: #009bffff;
+$light-blue3: #9dd2f3ff;
+$sand1: #e8bf62ff;
+$sand2: #ecd9aeff;
+$rock1: #aa7657ff;
+$rock2: #dea678ff;
+$rock3: #f3c49fff;
+$gray1: #f9f9f9ff;
+$gray2: #f2f2f2ff;
+
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+#head{
+  position: absolute;
+  width: 100%;
+}
+#topnavbar{
+  background-color: $gray1
+}
+#sidenavbar{
+  background-color: $gray2
+}
+#content{
+
+}
