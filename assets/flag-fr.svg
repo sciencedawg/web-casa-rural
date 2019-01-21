@@ -1,0 +1,30 @@
+<svg width="323.6" height="200" version="1.1" viewBox="0 0 85.62 52.92" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<title>flagfr</title>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title>flagfr</dc:title>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<g transform="translate(-49.61 -175.2)" fill-rule="evenodd">
+		<g transform="matrix(.8319 0 0 .8319 8.341 12.38)">
+			<rect x="49.61" y="10.04" width="102.9" height="63.61" fill="#000080" stroke-width=".2646"/>
+			<path transform="scale(.2646)" d="m187.5 37.95v32.66l151.6 87.55-151.6 87.55v32.66h29.16l165.3-95.46 165.3 95.46h29.16v-32.66l-151.6-87.55 151.6-87.55v-32.66h-29.16l-165.3 95.46-165.3-95.46z" fill="#fff" stroke-width=".9911"/>
+			<path transform="scale(.2646)" d="m187.5 37.95v23.38l167.7 96.83-167.7 96.83v23.38h13.07l181.4-104.7 181.4 104.7h13.07v-23.38l-167.7-96.83 167.7-96.83v-23.38h-13.08l-181.4 104.7-181.4-104.7z" fill="#d40000" stroke-width=".7834"/>
+			<path transform="scale(.2646)" d="m357.3 37.95v95.46h-169.8v49.5h169.8v95.46h49.5v-95.46h169.8v-49.5h-169.8v-95.46z" fill="#fff" stroke-width=".9911"/>
+			<path transform="scale(.2646)" d="m367.3 37.95v104.7h-179.8v30.93h179.8v104.7h29.5v-104.7h179.8v-30.93h-179.8v-104.7z" fill="#d40000" stroke-width=".7834"/>
+		</g>
+		<g transform="matrix(.8319 0 0 .8319 8.341 25.23)">
+			<rect x="49.61" y="86.48" width="102.9" height="63.61" fill="#d40000" stroke-width=".2646"/>
+			<rect x="49.61" y="104.3" width="102.9" height="27.97" fill="#fc0" stroke-width=".274"/>
+		</g>
+		<g transform="matrix(.8319 0 0 .8319 8.341 38.35)">
+			<rect x="49.61" y="164.5" width="102.9" height="63.61" fill="#f9f9f9" stroke-width=".2646"/>
+			<rect x="49.61" y="164.5" width="34.89" height="63.61" fill="#04a" stroke-width=".2565"/>
+			<rect x="117.6" y="164.5" width="34.89" height="63.61" fill="#d40000" stroke-width=".2565"/>
+		</g>
+	</g>
+</svg>
