@@ -10,4 +10,11 @@ html, body {
   background-color: #f9f9f9ff; }
 
 #sidenavbar {
-  background-color: #f2f2f2ff; }
+  background-color: #fff;
+  width: 250px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
