@@ -12,20 +12,28 @@ $rock3: #f3c49fff;
 $gray1: #f9f9f9ff;
 $gray2: #f2f2f2ff;
 
+$topnavbar-height: 80px;
+$topnavbar-height-inv: calc(100% - 80px);
+
+
 html,body{
   padding: 0;
   margin: 0;
+  // overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 #head{
-  position: absolute;
-  width: 100%;
 }
 #topnavbar{
-  background-color: $gray1
+  background-color: $gray1;
+  border-bottom: 2px solid $light-blue2;
+  z-index: 3;
 }
 #sidenavbar{
-  background-color: $gray2
+  background-color: $gray2;
+  border-right: 2px solid $sand2;
+  z-index: 2;
 }
 #content{
 
