@@ -9,11 +9,17 @@
   left: 0;
 }
 #sidenavbar{
-  width: 480px;
+  width: $sidenavbar-width;
   height: $topnavbar-height-inv;
   position: absolute;
   left: 0;
   top: 100%;
+  #closebutton{
+    position: relative;
+    left: $sidenavbar-width;
+    height: 50px;
+    width: 50px;
+  }
 }
 #topnavbar{
   width: 100%;

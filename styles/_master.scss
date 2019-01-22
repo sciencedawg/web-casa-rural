@@ -14,6 +14,7 @@ $gray2: #f2f2f2ff;
 
 $topnavbar-height: 80px;
 $topnavbar-height-inv: calc(100% - 80px);
+$sidenavbar-width: 480px;
 
 
 html,body{
@@ -28,12 +29,18 @@ html,body{
 #topnavbar{
   background-color: $gray1;
   border-bottom: 2px solid $light-blue2;
-  z-index: 3;
+  z-index: 4;
 }
 #sidenavbar{
   background-color: $gray2;
   border-right: 2px solid $sand2;
   z-index: 2;
+  #closebutton{
+    background-color: $gray2;
+    border-right: 2px solid $sand2;
+    border-bottom: 2px solid $sand2;
+    z-index: 3;
+  }
 }
 #content{
 
