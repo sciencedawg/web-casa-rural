@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <script src="scripts\main.js" charset="utf-8"></script>
-    <script src="scripts\jquery-3.3.1.min.js" charset="utf-8"></script>
-    <link id="stylesheetlink" rel="stylesheet" href="styles/master.css">
-    <title>Las Jordanas - Casa Rural</title>
-  </head>
-  <body>
-    <div class="head" id="head" onclick="" onscroll="">
-      <font size="12" color="black">Casa Rural Las Jordanas</font>
-    </div>
-    <div class="topnavbar" id="topnavbar">
-      <div class="logodiv" id="logodiv">
 
-      </div>
-      <div class="topnavmenu" id="topnavmenu">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <script src="scripts/main.js" charset="utf-8"></script>
+  <script src="scripts/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <link id="stylesheetlink" rel="stylesheet" href="styles/master.css">
+  <title>Las Jordanas - Casa Rural</title>
+</head>
 
-      </div>
-    </div>
-    <div class="sidenavbar" id="sidenavbar">
-      <div class="closebutton" id="closebutton">
-
-      </div>
-      <div class="sidenavmenu" id="sidenavmenu">
-
-      </div>
-    </div>
-    <div class="content" id="content">
+<body>
+  <div class="head" id="head" onclick="" onscroll="">
+    <h1>Casa Rural Las Jordanas</h1>
+  </div>
+  <div class="topnavbar" id="topnavbar">
+    <div class="logodiv" id="logodiv">
 
     </div>
-  </body>
+    <div class="topnavmenu" id="topnavmenu">
+
+    </div>
+  </div>
+  <div class="sidenavbar" id="sidenavbar">
+    <div class="closebutton" id="closebutton">
+      <button onclick="closeNav()">&times;</button>
+    </div>
+    <div class="sidenavmenu" id="sidenavmenu" style="postion: relative;">
+      <li><a href="">Link 1</a></li>
+      <li><a href="">Link 2</a></li>
+      <li><a href="">Link 3</a></li>
+      <li><a href="">You get the idea, right?</a></li>
+    </div>
+  </div>
+  <div class="content" id="content">
+  <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidebar</button>
+</div>
+</body>
+
 </html>
