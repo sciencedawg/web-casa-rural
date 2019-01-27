@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <script src="scripts/main.js" charset="utf-8"></script>
-  <script src="scripts/jquery-3.3.1.min.js" charset="utf-8"></script>
-  <link id="stylesheetlink" rel="stylesheet" href="styles/master.css">
-  <title>Las Jordanas - Casa Rural</title>
-</head>
-
-<body>
-  <div class="head" id="head" onclick="" onscroll="">
-    <h1>Casa Rural Las Jordanas</h1>
-  </div>
-  <div class="topnavbar" id="topnavbar">
-    <div class="logodiv" id="logodiv">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src="scripts\main.js" charset="utf-8"></script>
+    <script src="scripts\jquery-3.3.1.min.js" charset="utf-8"></script>
+    <link id="stylesheetlink" rel="stylesheet" href="styles/master.css">
+     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Las Jordanas - Casa Rural</title>
+  </head>
+  <body>
+    <div class="head" id="head" onclick="" onscroll="">
+      <font size="12" color="black">Casa Rural Las Jordanas</font>
+    </div>
+    <div class="topnavbar" id="topnavbar">
+      <div class="logodiv" id="logodiv">
 
       </div>
       <div class="topnavmenu" id="topnavmenu">
+        <div class="topmenuitem">
+          <a href="#">Bienvenid@</a>
+        </div>
+        <div class="topmenuitem">
+          <a href="#">Galería</a>
+        </div>
+        <div class="topmenuitem">
+          <a href="#">Información</a>
+        </div>
+        <div class="topmenuitem">
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sidenavbar" id="sidenavbar" style="margin-left:0px;">
+      <div onclick="toggleSideNav()" class="closebutton" id="closebutton">
+        <i id="menuicon" class="fas fa-caret-left"></i>
+      </div>
+      <div class="sidenavmenu" id="sidenavmenu">
         <ul>
-          <li>a</li>
-          <li>b</li>
-          <li>c</li>
-          <li>d</li>
+          <a href="#"><li>a</li></a>
+          <a href="#"><li>b</li></a>
+          <a href="#"><li>b</li></a>
+          <a href="#"><li>d</li></a>
         </ul>
       </div>
     </div>
-    <div class="topnavmenu" id="topnavmenu">
-
-    </div>
-  </div>
-  <div class="sidenavbar" id="sidenavbar">
-    <div>
-      <button onclick="closeNav()" class="closebutton" id="closebutton">&times;</button>
-    </div>
-    <div class="sidenavmenu" id="sidenavmenu" style="position:relative; top:50px;">
-      <ul style="list-style-type: none; padding-left: 0;">
-        <li><a href="" class="navbarlink">Link 1</a></li>
-        <li><a href="" class="navbarlink">Link 2</a></li>
-        <li><a href="" class="navbarlink">Link 3</a></li>
-        <li><a href="" class="navbarlink">You get the idea, right?</a></li>
-      </ul>
-    </div>
-  </div>
   <div class="content" id="content">
-    <button id="openbutton" onclick="openNav()">&#9776; Toggle Sidebar</button>
-    <h2> It's me, Mario </h2>
   </div>
 </body>
 
