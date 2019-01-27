@@ -1,6 +1,6 @@
 function toggleSideNav() {
   if (document.getElementById('sidenavbar').style.marginLeft == '0px'){
-    document.getElementById('sidenavbar').style.marginLeft = '-480px';
+    document.getElementById('sidenavbar').style.marginLeft = '-420px';
     document.getElementById('menuicon').classList = 'fas fa-bars';
 
   }
