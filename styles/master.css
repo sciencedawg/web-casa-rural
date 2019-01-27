@@ -1,8 +1,28 @@
+<<<<<<< HEAD
+=======
+/* Color Pallete
+$black-blue: #080e16ff;
+$dark-blue1: #0f2d55ff;
+$dark-blue2: #14478cff;
+$light-blue1: #007ac8ff;
+$light-blue2: #009bffff;
+$light-blue3: #9dd2f3ff;
+$sand1: #e8bf62ff;
+$sand2: #ecd9aeff;
+$rock1: #aa7657ff;
+$rock2: #dea678ff;
+$rock3: #f3c49fff;
+$gray1: #f9f9f9ff;
+$gray2: #f2f2f2ff;
+*/
+
+>>>>>>> b9f46c765dc9e404963969762457663ea3687689
 html, body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth; }
 
+<<<<<<< HEAD
 #topnavbar {
   background-color: #f9f9f9ff;
   border-bottom: 2px solid #009bffff;
@@ -18,6 +38,8 @@ html, body {
     border-bottom: 2px solid #ecd9aeff;
     z-index: 3; }
 
+=======
+>>>>>>> b9f46c765dc9e404963969762457663ea3687689
 #head {
   background-color: #007ac8ff;
   position: absolute;
@@ -26,6 +48,7 @@ html, body {
   top: 0;
   left: 0; }
 
+<<<<<<< HEAD
 #sidenavbar {
   width: 480px;
   height: calc(100% - 80px);
@@ -39,8 +62,74 @@ html, body {
     width: 50px; }
 
 #topnavbar {
+=======
+
+#topnavbar {
+  background-color: #f9f9f9ff;
+  border-bottom: 2px solid #009bffff;
+  z-index: 4;
+>>>>>>> b9f46c765dc9e404963969762457663ea3687689
   width: 100%;
   height: 80px;
   position: absolute;
   top: calc(100% - 80px);
+<<<<<<< HEAD
   left: 0; }
+=======
+  left: 0;}
+#topnavmenu{
+  height: 100%;
+  display: inline-flex;
+}
+
+/* Styles relating to the side navigation bar, entirely functional. DO NOT TOUCH.*/
+/* Side navigation bar division, position is absolute (for now)*/
+#sidenavbar {
+  background-color: #f2f2f2ff;
+  border-right: 2px solid #ecd9aeff;
+  z-index: 2;
+  width: 480px;
+  height: calc(100% - 80px);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transition: 0.4s}
+/* Button to close and open using Font Awesome*/
+#sidenavbar #closebutton {
+  background-color: #f2f2f2ff;
+  border-right: 2px solid #ecd9aeff;
+  border-bottom: 2px solid #ecd9aeff;
+  z-index: 3;
+  position: relative;
+  left: 480px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;}
+  .fa-caret-left{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 2em;}
+  .fa-bars{
+    margin-left: 11px;
+    margin-top: 9px;
+    font-size: 1.6em;}
+/* List of <a> anchors to diferent parts of the website. (Scroll sugessted)*/
+#sidenavmenu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;}
+#sidenavmenu ul a{
+  font-family: 'Railway', sans-serif;
+  color: #606060ff;
+  text-decoration: none;
+  display: block;
+  width: 100%;}
+#sidenavmenu ul a:hover{
+  background-color: #00000010;
+  color: #000000ff;
+  width: 100%;}
+#sidenavmenu ul li{
+  color: inherit;
+  padding: 20px 0 20px 50px;}
+
+>>>>>>> b9f46c765dc9e404963969762457663ea3687689
