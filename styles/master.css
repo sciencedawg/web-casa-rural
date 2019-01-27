@@ -1,3 +1,18 @@
+/* Color Pallete
+$black-blue: #080e16ff;
+$dark-blue1: #0f2d55ff;
+$dark-blue2: #14478cff;
+$light-blue1: #007ac8ff;
+$light-blue2: #009bffff;
+$light-blue3: #9dd2f3ff;
+$sand1: #e8bf62ff;
+$sand2: #ecd9aeff;
+$rock1: #aa7657ff;
+$rock2: #dea678ff;
+$rock3: #f3c49fff;
+$gray1: #f9f9f9ff;
+$gray2: #f2f2f2ff;
+*/
 html, body {
   padding: 0;
   margin: 0;
@@ -42,7 +57,7 @@ html, body {
 }
 
 #sidenavbar {
-  background-color: #f2f2f2ff;
+  background-color: #007ac8ff;
   border-right: 2px solid #ecd9aeff;
   z-index: 2;
 }
@@ -53,7 +68,7 @@ html, body {
   font-size: 30px;
   float: right;
   border: none;
-  background-color: #f2f2f2ff;
+  background-color: #007ac8ff;
   cursor: pointer;
 
 }
@@ -69,20 +84,32 @@ html, body {
   font-family: courier;
   font-size: 1.5em;
   text-decoration: none;
-  color: rgba(5, 12, 21, 1);
+  color: #080e16ff;
   transition: 1s;
 }
 
 .navbarlink:hover {
   font-size: 1.6em;
   font-weight: 900;
-  background-color: #80a7b3
+  background-color: #9dd2f3ff;
 }
-
+#openbutton{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100px;
+  font-family: courier;
+  border: none;
+  background-color: #14478cff;
+  color: white;
+}
 #content {
   position: absolute;
   top: 968px;
   left: 0;
   right: 0;
   height: 100%;
+  padding: 60px 0 0 0;
+  transition: 1s;
 }
