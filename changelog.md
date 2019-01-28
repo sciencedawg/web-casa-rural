@@ -9,7 +9,7 @@ _The project hasn't really started yet, we're waiting for the main files._
 - Folders for scripts and styles have been created.
 
 # 1.1.0
-> I (@ kleber24021) have decided that enough advances have been made to jump in 0.1 in the version number :laughing:
+> I (@kleber24021) have decided that enough advances have been made to jump in 0.1 in the version number :laughing:
 - All dynamic parts of the main webpage are functional.
   - Header (although code is not pretty) works and looks cool.
   - Topnavbar is also working.
