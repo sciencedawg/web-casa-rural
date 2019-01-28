@@ -20,7 +20,7 @@ html, body {
   scroll-behavior: smooth; }
 
 #head {
-  background-color: #007ac8ff;
+  /* background-color: #007ac8ff; */
   position: absolute;
   width: 100%;
   height: calc(100% - 80px);

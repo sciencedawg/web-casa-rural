@@ -3,16 +3,160 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <script src="scripts\main.js" charset="utf-8"></script>
-    <script src="scripts\jquery-3.3.1.min.js" charset="utf-8"></script>
-    <link id="stylesheetlink" rel="stylesheet" href="styles/master.css">
-     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:400,500" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Las Jordanas - Casa Rural</title>
+    <!-- Scripts (Javascript) -->
+    <script src="scripts\main.js" charset="utf-8"></script>
+    <!-- Third party scripts, SHALL NOT TOUCH -->
+    <script src="scripts\jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="scripts\jssor.slider-27.5.0.min.js"></script>
+    <!-- Stylesheets (CSS) -->
+    <link id="stylesheetlink" rel="stylesheet" href="styles/master.css">
+    <!-- Third party style sheet, SHALL NOT TOUCH -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body>
-    <div class="head" id="head" onclick="" onscroll="">
-      
+      <div class="head" id="head" onclick="" onscroll="">
+<!-- Jssor region DO NOT TOUCH -->
+<!-- #region Jssor Slider Begin -->
+<!-- Generator: Jssor Slider Maker -->
+<!-- Source: https://www.jssor.com -->
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+
+        var jssor_1_SlideshowTransitions = [
+          {$Duration:800,$Opacity:2},
+          {$Duration:700,$Opacity:2,$Brother:{$Duration:700,$Opacity:2}}
+        ];
+
+        var jssor_1_options = {
+          $AutoPlay: 1,
+          $Idle: 2500,
+          $SlideDuration: 1000,
+          $FillMode: 1,
+          $SlideshowOptions: {
+            $Class: $JssorSlideshowRunner$,
+            $Transitions: jssor_1_SlideshowTransitions
+          },
+          $ArrowNavigatorOptions: {
+            $Class: $JssorArrowNavigator$,
+            $ChanceToShow: 1
+          },
+          $BulletNavigatorOptions: {
+            $Class: $JssorBulletNavigator$,
+            $ChanceToShow: 1
+          }
+        };
+
+        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+        /*#region responsive code begin*/
+
+        var MAX_WIDTH = 1903;
+
+        function ScaleSlider() {
+            var containerElement = jssor_1_slider.$Elmt.parentNode;
+            var containerWidth = containerElement.clientWidth;
+
+            if (containerWidth) {
+
+                var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                jssor_1_slider.$ScaleWidth(expectedWidth);
+            }
+            else {
+                window.setTimeout(ScaleSlider, 30);
+            }
+        }
+
+        ScaleSlider();
+
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        /*#endregion responsive code end*/
+    });
+</script>
+<style>
+    /*jssor slider loading skin double-tail-spin css*/
+    .jssorl-004-double-tail-spin img {
+        animation-name: jssorl-004-double-tail-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-004-double-tail-spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /*jssor slider bullet skin 108 css*/
+    .jssorb108 {position:absolute;}
+    .jssorb108 .i {position:absolute;cursor:pointer;}
+    .jssorb108 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+    .jssorb108 .i:hover .b {fill:#fff;fill-opacity:1;stroke:#2b1908;stroke-opacity:.5;stroke-width:2000;}
+    .jssorb108 .iav .b {fill:#fff;fill-opacity:1;stroke:#ffaa00;stroke-opacity:1;stroke-width:2000;}
+    .jssorb108 .i.idn {opacity:.3;}
+
+    /*jssor slider arrow skin 103 css*/
+    .jssora103 {display:block;position:absolute;cursor:pointer;}
+    .jssora103 .c {fill:#fff;opacity:.8;}
+    .jssora103 .a {fill:#333;opacity:.8;}
+    .jssora103:hover .c {opacity:.6;}
+    .jssora103:hover .a {opacity:1;}
+    .jssora103.jssora103dn .c {opacity:.3;}
+    .jssora103.jssora103dn .a {opacity:1;}
+    .jssora103.jssora103ds {opacity:.3;pointer-events:none;}
+</style>
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1903px;height:886px;overflow:hidden;visibility:hidden;">
+    <!-- Loading Screen -->
+    <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+        <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/double-tail-spin.svg" />
+    </div>
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1903px;height:886px;overflow:hidden;">
+        <div data-fillmode="2">
+            <img data-u="image" src="assets/nuestracasa1.jpg" />
+        </div>
+        <div data-fillmode="2">
+            <img data-u="image" src="assets/posteriorfoto.jpg" />
+        </div>
+        <div data-fillmode="2">
+            <img data-u="image" src="assets/nuestracasa2a.jpg" />
+        </div>
+        <div data-fillmode="2">
+            <img data-u="image" src="assets/terrazagrande.jpg" />
+        </div>
+        <div data-fillmode="2">
+            <img data-u="image" src="assets/a/img-20171101-wa0031.jpg" />
+        </div>
+    </div>
+    <!-- Bullet Navigator -->
+    <div data-u="navigator" class="jssorb108" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+        <div data-u="prototype" class="i" style="width:16px;height:16px;">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+            </svg>
+        </div>
+    </div>
+    <!-- Arrow Navigator -->
+    <div data-u="arrowleft" class="jssora103" style="width:70px;height:70px;top:0px;left:30px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <circle class="c" cx="8000" cy="8000" r="6240"></circle>
+            <path class="a" d="M5738.1,7867.2l2689.6-2689.5c38.5-38.4,82.8-57.8,132.8-57.8c50,0,94.3,19.3,132.8,57.8l288.5,288.6 c38.5,38.5,57.7,82.7,57.7,132.8c0,50.1-19.2,94.3-57.7,132.8L6713.5,8000.1l2268.2,2268.3c38.5,38.5,57.7,82.7,57.7,132.7 c0,50.1-19.2,94.3-57.7,132.8l-288.5,288.5c-38.5,38.5-82.7,57.7-132.8,57.7c-50,0-94.3-19.2-132.8-57.7L5738.2,8132.8 c-38.4-38.4-57.7-82.7-57.7-132.8S5699.6,7905.8,5738.1,7867.2z"></path>
+        </svg>
+    </div>
+    <div data-u="arrowright" class="jssora103" style="width:70px;height:70px;top:0px;right:30px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <circle class="c" cx="8000" cy="8000" r="6240"></circle>
+            <path class="a" d="M10261.9,7867.2L7572.3,5177.8c-38.5-38.4-82.8-57.8-132.8-57.8c-50,0-94.3,19.3-132.8,57.8l-288.5,288.6 c-38.5,38.5-57.7,82.7-57.7,132.8c0,50.1,19.2,94.3,57.7,132.8l2268.2,2268.2l-2268.2,2268.3c-38.5,38.5-57.7,82.7-57.7,132.7 c0,50.1,19.2,94.3,57.7,132.8l288.5,288.5c38.5,38.5,82.7,57.7,132.8,57.7c50,0,94.3-19.2,132.8-57.7l2689.5-2689.5 c38.4-38.4,57.7-82.7,57.7-132.8S10300.4,7905.8,10261.9,7867.2z"></path>
+        </svg>
+    </div>
+</div>
+<!-- #endregion Jssor Slider End -->
+<!-- jssor region end, it's safe again -->
     </div>
     <div class="topnavbar" id="topnavbar">
       <div class="logodiv" id="logodiv">
