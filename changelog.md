@@ -10,9 +10,9 @@ _The project hasn't really started yet, we're waiting for the main files._
 
 # 1.1.0
 _I (@kleber24021) have decided that enough advances have been made to jump in 0.1 in the version number_ :laughing:
--All dynamic parts of the main webpage are functional.
-  -Header (although code is not pretty) works and looks cool.
-  -Topnavbar is also working.
-  -Sidenavbar works and looks pretty cool.
--New images (higher resolution) are now in /assets/a.
--Jquery has been installed and ~~surprisingly~~ it works.
+*-All dynamic parts of the main webpage are functional.*
+  *-Header (although code is not pretty) works and looks cool.*
+  *-Topnavbar is also working.*
+  *-Sidenavbar works and looks pretty cool.*
+*-New images (higher resolution) are now in /assets/a.*
+*-Jquery has been installed and ~~surprisingly~~ it works.*
