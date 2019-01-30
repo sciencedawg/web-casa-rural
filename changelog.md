@@ -16,4 +16,3 @@ _The project hasn't really started yet, we're waiting for the main files._
   - Sidenavbar works and looks pretty cool.
 - New images (higher resolution) are now in /assets/a.
 - Jquery has been installed and ~~surprisingly~~ it works.
-- Bootstrap has been installed.

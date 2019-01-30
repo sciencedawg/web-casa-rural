@@ -1,11 +1,12 @@
 function toggleSideNav() {
-  if (document.getElementById('sidenavbar').style.marginLeft == '0px'){
-    document.getElementById('sidenavbar').style.marginLeft = '-420px';
+  const sideNavBar = document.getElementById('sidenavbar');
+  if (sideNavBar.style.left === '0px'){
+    sideNavBar.style.left = '-420px';
     document.getElementById('menuicon').classList = 'fas fa-bars';
 
   }
   else {
-    document.getElementById('sidenavbar').style.marginLeft = '0px';
+    sideNavBar.style.left = '0px';
     document.getElementById('menuicon').classList += 'fas fa-caret-left';
   }
 }

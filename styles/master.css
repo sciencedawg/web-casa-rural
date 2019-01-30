@@ -74,7 +74,7 @@ html, body {
   width: 420px;
   height: calc(100% - 80px);
   position: absolute;
-  left: 0;
+  left: -420px;
   top: 100%;
   transition: 0.4s}
 /* Button to close and open using Font Awesome*/
@@ -116,7 +116,20 @@ html, body {
 #sidenavmenu ul li{
   color: inherit;
   padding: 20px 0 20px 50px;}
-
+#content{
+  position: absolute;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  background-color: Lavender;
+}
+#content /*Text*/{
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  font-family: 'Railway', sans-serif;
+  line-height: 0.5em;
+}
 /*jssor slider loading skin double-tail-spin css*/
 .jssorl-004-double-tail-spin img {
     animation-name: jssorl-004-double-tail-spin;
