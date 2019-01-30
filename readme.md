@@ -7,7 +7,7 @@ A redesign, and restructuring of [webpage] for a friend of our teacher.
   * Making it more than pretty, stunning.
   * (Maybe) adding a payment system.
 
-High School: IES Mariano José de Larra located in Madrid.
+High School: IES Mariano José de Larra, Madrid.
 > I think this might be child labor.
 > Borja is sure this is child labor.
 > Marco knows this is child labor and is about to report it to the cops.
