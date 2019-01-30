@@ -116,6 +116,7 @@ html, body {
 #sidenavmenu ul li{
   color: inherit;
   padding: 20px 0 20px 50px;}
+  /* Content */
 #content{
   position: absolute;
   top: 100%;
@@ -129,6 +130,23 @@ html, body {
   color: black;
   font-family: 'Railway', sans-serif;
   line-height: 0.5em;
+}
+/* Divs and "sub-divs" of the content */
+#bienvenido-content{
+}
+#galeria-content{
+}
+#informacion-content{
+}
+/* Sub-divs of Informacion-content */
+#tarifas-subcontent{
+}
+#comollegar-subcontent{
+}
+#actividades-subcontent
+/* End of Informacion-content sub-divs */
+
+#contacto-content{
 }
 /*jssor slider loading skin double-tail-spin css*/
 .jssorl-004-double-tail-spin img {
