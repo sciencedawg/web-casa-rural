@@ -26,7 +26,29 @@ html, body {
   height: calc(100% - 80px);
   top: 0;
   left: 0; }
-
+#carouseltitle, .carousel, .slide, .carousel-inner, .carousel-item{
+  height: 100%;
+}
+.titleslide{
+  margin-top: -200px;
+}
+.maintitle{
+  top: calc(50% - 120px);
+  left: calc(50% - 380px);
+  z-index: 3;
+  position: absolute;
+  color: white;
+  font-family:'Staatliches', cursive;
+}
+.maintitle_b{
+  font-size: 7em;
+  display: block;
+  line-height: 0.5;
+}
+.maintitle_a{
+  font-size: 3em;
+  display: block;
+}
 
 /* Styles relating to the top navigation bar.*/
 #topnavbar {
@@ -56,7 +78,7 @@ html, body {
   padding: 0 60px;}
 #topnavmenu a span{
   font-size: 20px;
-  font-family: 'Railway', sans-serif;
+  font-family:'Staatliches', cursive;
   height: 40%;
   margin-top: 26px;
   display: block;
@@ -98,6 +120,7 @@ html, body {
     margin-left: 11px;
     margin-top: 9px;
     font-size: 1.6em;}
+
 /* List of <a> anchors to diferent parts of the website. (Scroll sugessted)*/
 #sidenavmenu ul{
   list-style-type: none;
@@ -131,6 +154,7 @@ html, body {
   font-family: 'Railway', sans-serif;
   line-height: 0.5em;
 }
+
 /* Divs and "sub-divs" of the content */
 #bienvenido-content{
 }
@@ -148,33 +172,3 @@ html, body {
 
 #contacto-content{
 }
-/*jssor slider loading skin double-tail-spin css*/
-.jssorl-004-double-tail-spin img {
-    animation-name: jssorl-004-double-tail-spin;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes jssorl-004-double-tail-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-/*jssor slider bullet skin 108 css*/
-.jssorb108 {position:absolute;}
-.jssorb108 .i {position:absolute;cursor:pointer;}
-.jssorb108 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
-.jssorb108 .i:hover .b {fill:#fff;fill-opacity:1;stroke:#2b1908;stroke-opacity:.5;stroke-width:2000;}
-.jssorb108 .iav .b {fill:#fff;fill-opacity:1;stroke:#ffaa00;stroke-opacity:1;stroke-width:2000;}
-.jssorb108 .i.idn {opacity:.3;}
-
-/*jssor slider arrow skin 103 css*/
-.jssora103 {display:block;position:absolute;cursor:pointer;}
-.jssora103 .c {fill:#fff;opacity:.8;}
-.jssora103 .a {fill:#333;opacity:.8;}
-.jssora103:hover .c {opacity:.6;}
-.jssora103:hover .a {opacity:1;}
-.jssora103.jssora103dn .c {opacity:.3;}
-.jssora103.jssora103dn .a {opacity:1;}
-.jssora103.jssora103ds {opacity:.3;pointer-events:none;}
