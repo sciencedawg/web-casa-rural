@@ -1,0 +1,28 @@
+{"html":{
+  "title":"Las Jordanas - Casa Rural",
+  "maintitle_a":"Casa Rural",
+  "topnavmenu":[
+    "Bienvenidos",
+    "Galería",
+    "Información",
+    "Contacto"],
+  "sidenavmenu":{
+    "Bienvenidos":["Inicio", "¿Quienes somos?", "¿Por qué elegirnos?"],
+    "Galería":["Casa", "Habitaciones", "Terraza", "Paisajes"],
+    "Información":["Como Llegar", "Precios", "Tiempo", "Actividades", "Otros"],
+    "Contacto":["Información de Contacto", "Siguenos en Twitter", "Página Web"]
+  },
+  "content":{
+    "Bienvenidos":
+      "html",
+    "Galería":
+      "html",
+    "Información":
+      "html",
+    "Contacto":
+      "<p>Puedes contactarnos en:</p><br>
+      <a href='mailto:casalasjordanas@gmail.com'>casalasjordanas@gmail.com</a><br>
+      <p><br> o </p>
+      <a href='tel:+34610605287'>+34 610 60 52 87</a><br><br>
+      <p>Puedes contactarnos por whatsapp o voz de 15 a 23 h</p>"}
+  }}

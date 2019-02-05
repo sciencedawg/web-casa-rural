@@ -1,10 +1,10 @@
 function toggleSideNav() {
-  const sideNavBar = document.getElementById('sidenavbar');
+  const sideNavBar = $('#sidenavbar')[0];
   if (sideNavBar.style.left === '0px') {
     sideNavBar.style.left = '-420px';
-    document.getElementById('menuicon').classList = 'fas fa-bars';
+    $('#menuicon')[0].classList = 'fas fa-bars';
   } else {
     sideNavBar.style.left = '0px';
-    document.getElementById('menuicon').classList += 'fas fa-caret-left';
+    $('#menuicon')[0].classList += 'fas fa-caret-left';
   }
 }
