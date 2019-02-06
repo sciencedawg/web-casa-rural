@@ -1,0 +1,24 @@
+{"html":{
+  "title":"Las Jordanas - Rural Retreat House",
+  "maintitle_a":"Rural Retreat",
+  "topnavmenu":[
+    "Home",
+    "Pictures",
+    "Information",
+    "Contact"],
+  "sidenavmenu":{
+    "Home":["Welcome", "Who we are", "Why pick us?"],
+    "Pictures":["House", "Rooms", "Shared Spaces", "Outside", "Views nearby"],
+    "Information":["How to get here", "Prices", "Weather", "Activities", "Other"],
+    "Contact":["Contact Info", "Twitter", "Web Page Credits"]
+  },
+  "content":{
+    "Home":
+      "html",
+    "Pictures":
+      "html",
+    "Information":
+      "html",
+    "Contact":
+      "html"}
+  }}

@@ -4,7 +4,7 @@
 <head><link rel="icon" href="assets/logo/Casa_rural_Las_Jordanas_favicon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <title>Las Jordanas - Casa Rural</title>
+  <title></title>
   <!-- Scripts (Javascript) -->
   <script src="scripts\main.js" charset="utf-8"></script>
   <!-- Third party scripts. JQuery and Jssor. -->
@@ -25,7 +25,7 @@
 <body>
   <div class="head" id="head" onclick="" onscroll="">
     <div class="maintitle">
-      <span class="maintitle_a">Casa Rural</span>
+      <span class="maintitle_a"></span>
       <span class="maintitle_b">Las Jordanas</span>
     </div>
     <div id="carouseltitle" class="carousel slide" data-ride="carousel">
@@ -60,10 +60,10 @@
       <img style="position:relative; width:100%; height:90%; left: -100px; top: 5%" src="assets/logo/Casa_rural_Las_Jordanas_full_design.svg">
     </div>
     <div class="topnavmenu" id="topnavmenu">
-      <a href="#"><span>Bienvenidos</span></a>
-      <a href="#"><span>Galería</span></a>
-      <a href="#"><span>Información</span></a>
-      <a href="#"><span>Contacto</span></a>
+      <a href="#"><span class="topnavmenuitem"></span></a>
+      <a href="#"><span class="topnavmenuitem"></span></a>
+      <a href="#"><span class="topnavmenuitem"></span></a>
+      <a href="#"><span class="topnavmenuitem"></span></a>
     </div>
   </div>
 
@@ -88,15 +88,15 @@
       </ul>
     </div>
     <div class="flags" id="flags">
-      <a href="#lang=es"><img class="langflag" src="assets/flags/flag-es.svg" alt="ES"></a>
-      <a href="#lang=en"><img class="langflag" src="assets/flags/flag-en.svg" alt="EN"></a>
-      <a href="#lang=fr"><img class="langflag" src="assets/flags/flag-fr.svg" alt="FR"></a>
+      <a href="#lang=es"><img onclick="build_page('es.json')" class="langflag" src="assets/flags/flag-es.svg" alt="ES"></a>
+      <a href="#lang=en"><img onclick="build_page('en.json')" class="langflag" src="assets/flags/flag-en.svg" alt="EN"></a>
+      <a href="#lang=fr"><img onselect="build_page('fr.json')" class="langflag" src="assets/flags/flag-fr.svg" alt="FR"></a>
     </div>
   </div>
   <div class="content" id="content">
 
   </div>
-  <script src="build.js" charset="utf-8"></script>
+  <script src="scripts/build.js" charset="utf-8"></script>
 </body>
 
 </html>
