@@ -1,3 +1,28 @@
+const es = {"html":{
+  "title":"Las Jordanas - Casa Rural",
+  "maintitle_a":"Casa Rural",
+  "topnavmenu":[
+    "Bienvenidos",
+    "Galería",
+    "Información",
+    "Contacto"],
+  "sidenavmenu":{
+    "Bienvenidos":["Inicio", "¿Quienes somos?", "¿Por qué elegirnos?"],
+    "Galería":["Casa", "Habitaciones", "Espacios Comunes", "Terraza", "Paisajes"],
+    "Información":["Como Llegar", "Precios", "Tiempo", "Actividades", "Otros"],
+    "Contacto":["Información de Contacto", "Siguenos en Twitter", "Página Web"]
+  },
+  "content":{
+    "Bienvenidos":
+      "html",
+    "Galería":
+      "html",
+    "Información":
+      "html",
+    "Contacto":
+      "html"}
+  }}
+
 function change_tab(jsonfile, tabname) {
   console.log(tabname);
   let tabname_a = tabname.replace('<span class="topnavmenuitem">','').replace('</span>', '');
