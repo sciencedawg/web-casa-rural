@@ -20,10 +20,11 @@
 </head>
 
 <body>
-  <div class="head" id="head" onclick="" onscroll="">
+  <div class="head" id="head" onmousewheel="scrolltopage()">
     <div class="maintitle">
       <span class="maintitle_a"></span>
       <span class="maintitle_b">Las Jordanas</span>
+      <button type="button" name="button" onclick="scrolltopage()" id="godownbt">Explorar  <i class="fas fa-angle-down"></i></button>
     </div>
     <div id="carouseltitle" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -83,6 +84,9 @@
           <li class="sidenavmenuitem"></li>
         </a>
       </ul>
+    </div>
+    <div class="backtopdiv">
+      <button type="button" onclick="scrolltopage()" name="button" id="backtopbt">Volver al titulo</button>
     </div>
     <div class="flags" id="flags">
       <a href="#lang=es"><img onclick="build_page(es)" class="langflag" src="assets/flags/flag-es.svg" alt="ES"></a>

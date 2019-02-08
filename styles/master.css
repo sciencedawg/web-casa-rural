@@ -17,7 +17,7 @@ $gray2: #f2f2f2ff;
 html, body {
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth; }
+  overflow: hidden;}
 
 #head {
   /* background-color: #007ac8ff; */
@@ -26,6 +26,20 @@ html, body {
   height: calc(100% - 80px);
   top: 0;
   left: 0; }
+#godownbt{
+  transition: 0.2s;
+  font-size: 1.4em;
+  padding: 10px;
+  color: white;
+  margin-left: 260px;
+  margin-top: 60px;
+  background-color: #f9f9f910;
+  border: 2px solid #9dd2f3ff;
+  border-radius: 4px;}
+#godownbt:hover{
+  background-color: #080e1640;
+  border: 2px solid #007ac8ff;
+  }
 #carouseltitle, .carousel, .slide, .carousel-inner, .carousel-item{
   height: 100%;
 }
@@ -33,7 +47,7 @@ html, body {
   margin-top: -200px;
 }
 .maintitle{
-  top: calc(50% - 120px);
+  top: calc(50% - 140px);
   left: calc(50% - 340px);
   z-index: 3;
   position: absolute;
@@ -152,6 +166,11 @@ html, body {
 #sidenavmenu ul li{
   color: inherit;
   padding: 20px 0 20px 50px;}
+
+.sticky{
+  position: fixed;
+}
+
   /* Content */
 #content{
   position: absolute;
@@ -170,6 +189,7 @@ html, body {
 
 /* Divs and "sub-divs" of the content */
 #content{
+  overflow-y: scroll;
   position: absolute;
   top: 100%;
 }
