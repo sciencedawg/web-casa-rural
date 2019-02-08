@@ -7,10 +7,10 @@ const es = {"html":{
     "Información",
     "Contacto"],
   "sidenavmenu":{
-    "Bienvenidos":["Inicio", "¿Quiénes somos?", "¿Por qué elegirnos?"],
+    "Bienvenidos":["Inicio", "¿Quienes somos?", "¿Por qué elegirnos?"],
     "Galería":["Casa", "Habitaciones", "Espacios Comunes", "Terraza", "Paisajes"],
-    "Información":["Cómo Llegar", "Precios", "Tiempo", "Actividades", "Otros"],
-    "Contacto":["Información de Contacto", "Síguenos en Twitter", "Página Web"]
+    "Información":["Como Llegar", "Precios", "Tiempo", "Actividades", "Otros"],
+    "Contacto":["Información de Contacto", "Siguenos en Twitter", "Página Web"]
   },
   "content":{
     "Bienvenidos":
