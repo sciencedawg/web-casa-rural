@@ -17,7 +17,7 @@ const es = {"html":{
       "html",
     "Galería":
       "html",
-    "Infor
+    "Información":
       "html",
     "Contacto":
       "html"}
