@@ -3,22 +3,22 @@
   "maintitle_a":"Maison Rurale",
   "topnavmenu":[
     "Accueil",
-    "Pictures",
-    "Information",
+    "Images",
+    "Infos pratiques",
     "Nous contacter"],
   "sidenavmenu":{
-    "Home":["Welcome", "Who we are", "Why pick us?"],
-    "Pictures":["House", "Rooms", "Shared Spaces", "Outside", "Views nearby"],
-    "Information":["Comment y aller", "Tarif", "Weather", "Activités", "Other"],
-    "Contact":["Contact Info", "Twitter", "Web Page Credits"]
+    "Accueil":["Bienvenue", "À propos de nous", "Pourquoi nous choisir?"],
+    "Images":["Notre maison", "Nos chambres", "Nos espaces communs", "Notre terrasse", "Paysages"],
+    "Infos pratiques":["Comment y aller", "Tarif", "Météo", "Activités", "Autre"],
+    "Nous contacter":["Information de contact", "Twitter", "Crédits de la page web"]
   },
   "content":{
-    "Home":
+    "Accueil":
       "html",
-    "Pictures":
+    "Images":
       "html",
-    "Information":
+    "Infos pratiques":
       "html",
-    "Contact":
+    "Nous contacter":
       "html"}
   }}
