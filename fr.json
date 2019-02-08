@@ -1,0 +1,24 @@
+{"html":{
+  "title":"Las Jordanas - Maison Rurale",
+  "maintitle_a":"Maison Rurale",
+  "topnavmenu":[
+    "Accueil",
+    "Images",
+    "Infos pratiques",
+    "Nous contacter"],
+  "sidenavmenu":{
+    "Accueil":["Bienvenue", "À propos de nous", "Pourquoi nous choisir?"],
+    "Images":["Notre maison", "Nos chambres", "Nos espaces communs", "Notre terrasse", "Paysages"],
+    "Infos pratiques":["Comment y aller", "Tarif", "Météo", "Activités", "Autre"],
+    "Nous contacter":["Information de contact", "Twitter", "Crédits de la page web"]
+  },
+  "content":{
+    "Accueil":
+      "html",
+    "Images":
+      "html",
+    "Infos pratiques":
+      "html",
+    "Nous contacter":
+      "html"}
+  }}
