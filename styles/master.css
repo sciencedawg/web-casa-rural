@@ -5,6 +5,7 @@ $dark-blue2: #14478cff;
 $light-blue1: #007ac8ff;
 $light-blue2: #009bffff;
 $light-blue3: #9dd2f3ff;
+$light-blue4: #F4FBFFff;
 $sand1: #e8bf62ff;
 $sand2: #ecd9aeff;
 $rock1: #aa7657ff;
@@ -31,7 +32,7 @@ html, body {
   font-size: 1.4em;
   padding: 10px;
   color: white;
-  margin-left: 260px;
+  margin-left: 250px;
   margin-top: 60px;
   background-color: #f9f9f910;
   border: 2px solid #9dd2f3ff;
@@ -48,19 +49,19 @@ html, body {
 }
 .maintitle{
   top: calc(50% - 140px);
-  left: calc(50% - 340px);
+  left: calc(50% - 325px);
   z-index: 3;
   position: absolute;
   color: white;
   font-family:'Staatliches', cursive;
 }
 .maintitle_b{
-  font-size: 7em;
+  font-size: 132px;
   display: block;
   line-height: 0.5;
 }
 .maintitle_a{
-  font-size: 3em;
+  font-size: 56px;
   display: block;
 }
 
@@ -171,25 +172,20 @@ html, body {
   position: fixed;
 }
 
-  /* Content */
+/* Content */
 #content{
   position: absolute;
   top: 100%;
   height: 100%;
   width: 100%;
-  background-color: Lavender;
-}
-#content /*Text*/{
+  background-color: #F4FBFFff;
   text-align: center;
   font-size: 2em;
   color: black;
   font-family: 'Railway', sans-serif;
-  line-height: 0.5em;
-}
-
-/* Divs and "sub-divs" of the content */
-#content{
   overflow-y: scroll;
   position: absolute;
   top: 100%;
+  height: calc(100% - 80px);
+  scroll-behavior: smooth;
 }

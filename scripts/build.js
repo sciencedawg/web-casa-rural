@@ -81,7 +81,7 @@ function change_tab(tabname) {
   $('#sidenavmenu_u')[0].innerHTML = "";
   for (var i = 0; i < doc['sidenavmenu'][tabname_a].length; i++) {
     let contentdiv = doc['sidenavmenu'][tabname_a];
-    let item = "<a href='#" + contentdiv[i] + "'><li class='sidenavmenuitem'>" + contentdiv[i] + "</li></a>";
+    let item = "<a href='#h3'><li class='sidenavmenuitem'>" + contentdiv[i] + "</li></a>";
     $('#sidenavmenu_u')[0].innerHTML += item;
     }
 }
