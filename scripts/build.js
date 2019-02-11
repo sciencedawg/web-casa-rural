@@ -13,15 +13,26 @@ const es = {"html":{
     "Contacto":["Información de Contacto", "Síguenos en Twitter", "Página Web"]
   },
   "content":{
-    "Bienvenidos":
-      "html",
-    "Galería":
-      "html",
-    "Información":
-      "html",
-    "Contacto":
-      "html"}
-    }};
+    "Bienvenidos":{
+      'file':'bienvenidos.html',
+      'text': [
+
+      ]},
+    "Galería":{
+      'file':'galeria.html',
+      'text': [
+
+      ]},
+    "Información":{
+      'file':'informacion.html',
+      'text': [
+
+      ]},
+    "Contacto":{
+      'file':'contacto.html',
+      'text': [
+
+      ]}}}};
 
 const en = {"html":{
   "title":"Las Jordanas - Rural Retreat House",
@@ -38,15 +49,26 @@ const en = {"html":{
     "Contact":["Contact Info", "Twitter", "Web Page Credits"]
   },
   "content":{
-    "Home":
-      "html",
-    "Pictures":
-      "html",
-    "Information":
-      "html",
-    "Contact":
-      "html"}
-  }};
+    "Home":{
+      'file':'bienvenidos.html',
+      'text': [
+
+      ]},
+    "Pictures":{
+      'file':'galeria.html',
+      'text': [
+
+      ]},
+    "Information":{
+      'file':'informacion.html',
+      'text': [
+
+      ]},
+    "Contact":{
+      'file':'contacto.html',
+      'text': [
+
+      ]}}}};
 
 const fr = {"html":{
   "title":"Las Jordanas - Maison Rurale",
@@ -63,21 +85,62 @@ const fr = {"html":{
     "Nous contacter":["Information de contact", "Twitter", "Crédits de la page web"]
   },
   "content":{
-    "Accueil":
-      "html",
-    "Images":
-      "html",
-    "Infos pratiques":
-      "html",
-    "Nous contacter":
-      "html"}
-  }};
+    "Accueil":{
+      'file':'bienvenidos.html',
+      'text': [
+
+      ]},
+    "Images":{
+      'file':'galeria.html',
+      'text': [
+
+      ]},
+    "Infos pratiques":{
+      'file':'informacion.html',
+      'text': [
+
+      ]},
+    "Nous contacter":{
+      'file':'contacto.html',
+      'text': [
+
+      ]}}}};
 
 let page_lang;
 
+function includeHTML() {
+ var z, i, elmnt, file, xhttp;
+ /* Loop through a collection of all HTML elements: */
+ z = document.getElementsByTagName("*");
+ for (i = 0; i < z.length; i++) {
+   elmnt = z[i];
+   /*search for elements with a certain atrribute:*/
+   file = elmnt.getAttribute("w3-include-html");
+   if (file) {
+     /* Make an HTTP request using the attribute value as the file name: */
+     xhttp = new XMLHttpRequest();
+     xhttp.onreadystatechange = function() {
+       if (this.readyState == 4) {
+         if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+         if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+         /* Remove the attribute, and call this function once more: */
+         elmnt.removeAttribute("w3-include-html");
+         includeHTML();
+       }
+     }
+     xhttp.open("GET", file, true);
+     xhttp.send();
+     /* Exit the function: */
+     return;
+   }
+ }
+}
+
 function change_tab(tabname) {
   let tabname_a = tabname.replace('<span class="topnavmenuitem">','').replace('</span>', '');
+  let content = $('#content')[0]
   let doc = page_lang['html'];
+  content.setAttribute('w3-include-html', doc['content'][tabname_a]['file']);
   $('#sidenavmenu_u')[0].innerHTML = "";
   for (var i = 0; i < doc['sidenavmenu'][tabname_a].length; i++) {
     let contentdiv = doc['sidenavmenu'][tabname_a];
