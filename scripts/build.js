@@ -133,17 +133,23 @@ function includeHTML() {
 }
 
 function change_tab(tabname) {
+  $('#content').fadeOut(100);
   let tabname_a = tabname.replace('<span class="topnavmenuitem">','').replace('</span>', '');
-  let content = $('#content')[0]
+  let content = $('#content')[0];
   let doc = page_lang['html'];
   content.setAttribute('w3-include-html', doc['content'][tabname_a]['file']);
-  includeHTML();
   $('#sidenavmenu_u')[0].innerHTML = "";
+  includeHTML();
   for (var i = 0; i < doc['sidenavmenu'][tabname_a].length; i++) {
     let contentdiv = doc['sidenavmenu'][tabname_a];
     let item = "<a href='#"+ contentdiv[i] +"'><li class='sidenavmenuitem'>" + contentdiv[i] + "</li></a>";
+    let headings = $('.heading');
+    headings[i].innerHTML = doc['sidenavmenu'][tabname_a][i];
+    console.log($('.heading')[i].innerHTML);
     $('#sidenavmenu_u')[0].innerHTML += item;
     }
+
+  $('#content').fadeIn(100);
 }
 
 function build_page(lang) {
