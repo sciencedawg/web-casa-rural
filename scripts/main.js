@@ -8,3 +8,9 @@ function toggleSideNav() {
     $('#menuicon')[0].classList += 'fas fa-caret-left';
   }
 }
+function closeSideNav() {
+  const sideNavBar = $('#sidenavbar')[0];
+  if (sideNavBar.style.left === '0px') {
+    toggleSideNav();
+  }
+}
