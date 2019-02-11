@@ -105,6 +105,7 @@ html, body {
 /* Styles relating to the side navigation bar, entirely functional. DO NOT TOUCH.*/
 /* Side navigation bar division, position is absolute (for now)*/
 #sidenavbar {
+  font-family: 'Patua One', cursive;
   background-color: #f2f2f2ff;
   border-right: 2px solid #ecd9aeff;
   z-index: 2;
@@ -145,9 +146,10 @@ html, body {
 .langflag{
   position: relative;
   width: 40px;
-  border: 1px solid #e8bf62ff;}
+  border: 1px solid #00000000;
+  border-radius: 4px;}
 .langflag:hover{
-  border: 2px solid #e8bf62ff;}
+  border: 2px solid #9dd2f3ff;}
 
 /* List of <a> anchors to diferent parts of the website. (Scroll sugessted)*/
 #sidenavmenu ul{
@@ -155,7 +157,6 @@ html, body {
   padding: 0;
   margin: 0;}
 #sidenavmenu ul a{
-  font-family: 'Railway', sans-serif;
   color: #14478cAA;
   text-decoration: none;
   display: block;
@@ -169,22 +170,21 @@ html, body {
   padding: 20px 0 20px 50px;}
 
 .sticky{
-  position: fixed;
-}
+  position: fixed;}
 /* Get back button */
 #backtopbt{
   position: absolute;
-  bottom: 0;
-  left: 0;
-  border: 1px solid #e8bf62ff;
-  border-color:
-  width: 40%;
-  height: 50px;
-  background-color: inherit;
+  bottom: 10px;
+  left: 20px;
+  border: 2px solid #00000000;
+  border-radius: 4px;
+  padding: 5px 15px;
+  background-color: #00000010;;
+  cursor: pointer;
 }
 #backtopbt:hover{
-  border: 2px solid #e8bf62ff;
-  cursor: pointer;
+  border: 2px solid #9dd2f3ff;
+  background-color: #00000010;
 }
 /* Content */
 #content{
