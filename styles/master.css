@@ -85,20 +85,20 @@ html, body {
   display: inline-flex;
   align-items: stretch;
   justify-content: space-around;}
-#topnavmenu a{
+#topnavmenu div{
   text-decoration: none;
   text-align: center;
   color: #0f2d55ff;
   display: block;
   padding: 0 60px;}
-#topnavmenu a span{
+#topnavmenu div span{
   font-size: 20px;
   font-family:'Staatliches', cursive;
   height: 40%;
   margin-top: 26px;
   display: block;
   line-height: normal;}
-#topnavmenu a:hover span{
+#topnavmenu div:hover span{
   border-bottom: 2px solid #0f2d55ff;
   color: #0f2d55ff;}
 
