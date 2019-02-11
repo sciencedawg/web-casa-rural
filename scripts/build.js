@@ -154,7 +154,7 @@ function build_page(lang) {
   for (var i = 0; i < $('.topnavmenuitem').length; i++) {
     $('.topnavmenuitem')[i].innerHTML = doc['topnavmenu'][i];
   }
-  change_tab($('.topnavmenuitem')[1].innerHTML);
+  change_tab($('.topnavmenuitem')[0].innerHTML);
 }
 
 // Select all links with hashes
