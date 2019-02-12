@@ -108,43 +108,13 @@ const fr = {"html":{
 
 let page_lang;
 
-function includeHTML() {
- var z, i, elmnt, file, xhttp;
- /* Loop through a collection of all HTML elements: */
- z = $('#content')[0];
- file = z.getAttribute("w3-include-html");
- if (file) {
-   /* Make an HTTP request using the attribute value as the file name: */
-   xhttp = new XMLHttpRequest();
-   xhttp.onreadystatechange = function() {
-     if (this.readyState == 4) {
-       if (this.status == 200) {z.innerHTML = this.responseText;}
-       if (this.status == 404) {z.innerHTML = "Page not found.";}
-       /* Remove the attribute, and call this function once more: */
-       z.removeAttribute("w3-include-html");
-       includeHTML();
-     }
-   }
-   xhttp.open("GET", file, true);
-   xhttp.send();
-   /* Exit the function: */
-   return;
- }
-}
-
 function change_tab(tabname) {
   let tabname_a = tabname.replace('<span class="topnavmenuitem">','').replace('</span>', '');
-  // let content = $('#content')[0];
   let doc = page_lang['html'];
-  // content.setAttribute('w3-include-html', doc['content'][tabname_a]['file']);
   $('#sidenavmenu_u')[0].innerHTML = "";
-  // includeHTML();
   for (var i = 0; i < doc['sidenavmenu'][tabname_a].length; i++) {
     let contentdiv = doc['sidenavmenu'][tabname_a];
     let item = "<a href='#"+ contentdiv[i] +"'><li class='sidenavmenuitem'>" + contentdiv[i] + "</li></a>";
-    // let headings = $('.heading');
-    // headings[i].innerHTML = doc['sidenavmenu'][tabname_a][i];
-    // console.log($('.heading')[i].innerHTML);
     $('#sidenavmenu_u')[0].innerHTML += item;
     }
 }
