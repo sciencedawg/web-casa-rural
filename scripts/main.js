@@ -1,17 +1,12 @@
-function toggleSideNav() {
+function toggleSideNav(mode) {
+  // Mode 0: toggle. Mode 1: close.
   const sideNavBar = $('#sidenavbar')[0];
-  if (sideNavBar.style.left === '0px') {
+  if (sideNavBar.style.left == '0px' || mode == 1) {
     sideNavBar.style.left = '-420px';
     $('#menuicon')[0].classList = 'fas fa-bars';
-  } else {
+  } else if (sideNavBar.style.left == '-420px' && mode != 1){
     sideNavBar.style.left = '0px';
     $('#menuicon')[0].classList += 'fas fa-caret-left';
-  }
-}
-function closeSideNav() {
-  const sideNavBar = $('#sidenavbar')[0];
-  if (sideNavBar.style.left === '0px') {
-    toggleSideNav();
   }
 }
 function change_sidenav(tabname, doc) {
@@ -55,21 +50,15 @@ function build_page(lang) {
   change_tab($('.topnavmenuitem')[0].innerHTML);
 }
 
-// Select all links with hashes
-function scrolltopage() {
+function scrolltopage(mode) {
+  // Mode 0: Down, Mode 1: Up.
   var target = $('#topnavbar')[0];
   let targettop;
-  window.pageYOffset != '0' ? targettop = -(target.offsetTop) : targettop = target.offsetTop;
-  $('html, body').animate({
-    scrollTop: targettop
-  }, 1000, function() {
-    if (window.pageYOffset != '0'){
+  mode == 1 ? targettop = -(target.offsetTop) : targettop = target.offsetTop;
+  $('html, body').animate({scrollTop: targettop}, 1000, function() {
+    if (mode == 1){
       target.focus();
     }
     else {
       $('#head')[0].focus();
     }});}
-function scrolltopage_alt(){
-  if (window.pageYOffset == '0'){
-    scrolltopage();
-  }}

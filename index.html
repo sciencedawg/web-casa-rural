@@ -24,7 +24,7 @@
     <div class="maintitle">
       <span class="maintitle_a"></span>
       <span class="maintitle_b">Las Jordanas</span>
-      <button type="button" name="button" onclick="scrolltopage()" id="godownbt">Explorar&nbsp; &nbsp;<i class="fas fa-angle-down"></i></button>
+      <button type="button" name="button" onclick="scrolltopage(0)" id="godownbt">Explorar&nbsp; &nbsp;<i class="fas fa-angle-down"></i></button>
     </div>
     <div id="carouseltitle" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -58,15 +58,15 @@
       <img style="position:relative; width:100%; height:90%; left: -100px; top: 5%" src="assets/logo/Casa_rural_Las_Jordanas_sp.svg">
     </div>
     <div class="topnavmenu" id="topnavmenu">
-      <div onclick="change_tab(this.innerHTML); closeSideNav(); scrolltopage_alt();" href=""><span class="topnavmenuitem"></span></div>
-      <div onclick="change_tab(this.innerHTML); closeSideNav(); scrolltopage_alt();" href=""><span class="topnavmenuitem"></span></div>
-      <div onclick="change_tab(this.innerHTML); closeSideNav(); scrolltopage_alt();" href=""><span class="topnavmenuitem"></span></div>
-      <div onclick="change_tab(this.innerHTML); closeSideNav(); scrolltopage_alt();" href=""><span class="topnavmenuitem"></span></div>
+      <div onclick="change_tab(this.innerHTML); scrolltopage(0);" href=""><span class="topnavmenuitem"></span></div>
+      <div onclick="change_tab(this.innerHTML); scrolltopage(0);" href=""><span class="topnavmenuitem"></span></div>
+      <div onclick="change_tab(this.innerHTML); scrolltopage(0);" href=""><span class="topnavmenuitem"></span></div>
+      <div onclick="change_tab(this.innerHTML); scrolltopage(0);" href=""><span class="topnavmenuitem"></span></div>
     </div>
   </div>
 
-  <div class="sidenavbar" id="sidenavbar" style="margin-left:0px;">
-    <div onclick="toggleSideNav()" class="closebutton" id="closebutton">
+  <div class="sidenavbar" id="sidenavbar" style="left:-420px;">
+    <div onclick="toggleSideNav(0)" class="closebutton" id="closebutton">
       <i id="menuicon" class="fas fa-bars"></i>
     </div>
     <div class="sidenavmenu" id="sidenavmenu">
@@ -86,7 +86,7 @@
       </ul>
     </div>
     <div class="backtopdiv">
-      <button type="button" onclick="scrolltopage(); closeSideNav();" name="button" id="backtopbt">Volver al título</button>
+      <button type="button" onclick="scrolltopage(1); toggleSideNav(1);" name="button" id="backtopbt">Volver al título</button>
     </div>
     <div class="flags" id="flags">
       <a href="#lang=es"><img onclick="build_page(es)" class="langflag" src="assets/flags/flag-es.svg" alt="ES"></a>
