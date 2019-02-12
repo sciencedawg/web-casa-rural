@@ -6,7 +6,7 @@
 
 _The project hasn't really started yet, we're waiting for the main files._
 
-# 0.0.2
+# 0.0.1
 - Most original images are now in /assets.
 - Folders for scripts and styles have been created.
 
