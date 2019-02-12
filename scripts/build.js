@@ -107,46 +107,4 @@ const fr = {"html":{
       ]}}}};
 
 let page_lang;
-
-function change_tab(tabname) {
-  let tabname_a = tabname.replace('<span class="topnavmenuitem">','').replace('</span>', '');
-  let doc = page_lang['html'];
-  $('#sidenavmenu_u')[0].innerHTML = "";
-  for (var i = 0; i < doc['sidenavmenu'][tabname_a].length; i++) {
-    let contentdiv = doc['sidenavmenu'][tabname_a];
-    let item = "<a href='#"+ contentdiv[i] +"'><li class='sidenavmenuitem'>" + contentdiv[i] + "</li></a>";
-    $('#sidenavmenu_u')[0].innerHTML += item;
-    }
-}
-
-function build_page(lang) {
-  page_lang = lang;
-  let doc = lang['html'];
-  $('title')[0].innerHTML = doc['title'];
-  $('.maintitle_a')[0].innerHTML = doc['maintitle_a'];
-  for (var i = 0; i < $('.topnavmenuitem').length; i++) {
-    $('.topnavmenuitem')[i].innerHTML = doc['topnavmenu'][i];
-  }
-  change_tab($('.topnavmenuitem')[0].innerHTML);
-}
-
-// Select all links with hashes
-function scrolltopage() {
-  var target = $('#topnavbar')[0];
-  let targettop;
-  window.pageYOffset != '0' ? targettop = -(target.offsetTop) : targettop = target.offsetTop;
-  $('html, body').animate({
-    scrollTop: targettop
-  }, 1000, function() {
-    if (window.pageYOffset != '0'){
-      target.focus();
-    }
-    else {
-      $('#head')[0].focus();
-    }});}
-function scrolltopage_alt(){
-  if (window.pageYOffset == '0'){
-    scrolltopage();
-  }}
-
 build_page(es)
