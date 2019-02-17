@@ -41,14 +41,12 @@ html, body {
   background-color: #080e1640;
   border: 2px solid #007ac8ff;
   }
-#carouseltitle, .carousel, .slide, .carousel-inner, .carousel-item{
-  height: 100%;
-}
+
 .titleslide{
   margin-top: -200px;
 }
 .maintitle{
-  top: calc(50% - 140px);
+  top: calc(50% - 120px);
   left: calc(50% - 325px);
   z-index: 3;
   position: absolute;
@@ -131,12 +129,12 @@ html, body {
     color: #14478cff;
     margin-left: 14px;
     margin-top: 4px;
-    font-size: 2em;}
+    font-size: 40px;}
   .fa-bars{
     color: #14478cff;
     margin-left: 10px;
     margin-top: 8px;
-    font-size: 1.6em;}
+    font-size: 30px;}
 #flags{
   display: block;
   height: 30px;
@@ -188,7 +186,7 @@ html, body {
   background-color: #00000010;
 }
 /* Content */
-#content{
+.content{
   position: absolute;
   top: 100%;
   width: 100%;
