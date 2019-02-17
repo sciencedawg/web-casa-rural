@@ -1,4 +1,5 @@
-const es = {"html":{
+const es = {'lang':'es',
+  "html":{
   "title":"Las Jordanas - Casa Rural",
   "maintitle_a":"Casa Rural",
   "structure":{
@@ -59,7 +60,8 @@ const es = {"html":{
 
       ]}}}}
 
-const en = {"html":{
+const en = {'lang':'en',
+  "html":{
   "title":"Las Jordanas - Holiday Cottage",
   "maintitle_a":"Holiday Cottage",
   "structure":{
@@ -120,7 +122,8 @@ const en = {"html":{
 
       ]}}}}
 
-const fr = {"html":{
+const fr = {'lang':'fr',
+  "html":{
   "title":"Las Jordanas - Holiday Cottage",
   "maintitle_a":"Holiday Cottage",
   "structure":{
@@ -183,4 +186,4 @@ const fr = {"html":{
 
 let page_lang;
 setLang();
-// build_page(es);
+build_page();
