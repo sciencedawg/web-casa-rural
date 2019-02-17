@@ -1,112 +1,186 @@
 const es = {"html":{
   "title":"Las Jordanas - Casa Rural",
   "maintitle_a":"Casa Rural",
-  "topnavmenu":[
-    "Bienvenidos",
-    "Galería",
-    "Información",
-    "Contacto"],
-  "sidenavmenu":{
-    "Bienvenidos":["Inicio", "¿Quiénes somos?", "¿Por qué elegirnos?"],
-    "Galería":["Casa", "Habitaciones", "Espacios Comunes", "Terraza", "Paisajes"],
-    "Información":["Cómo Llegar", "Tarifas", "Tiempo", "Actividades", "Otros"],
-    "Contacto":["Información de Contacto", "Síguenos en Twitter", "Página Web"]
-  },
-  "content":{
+  "structure":{
     "Bienvenidos":{
-      'file':'bienvenidos.html',
-      'text': [
-        'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.',
+      "n": 0,
+      "Inicio":[
+        'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.'
+      ],
+      "¿Quiénes somos?":[
+
+      ],
+      "¿Por qué elegirnos?":[
 
       ]},
     "Galería":{
-      'file':'galeria.html',
-      'text': [
+      "n": 1,
+      "Casa":[
+
+      ],
+      "Habitaciones":[
+
+      ],
+      "Espacios Comunes":[
+
+      ],
+      "Terraza":[
+
+      ],
+      "Paisajes":[
 
       ]},
     "Información":{
-      'file':'informacion.html',
-      'text': [
-        'Puede contactarnos en: casalasjordanas@gmail.com o bien en +34 610 605 287 por Whatsapp o voz de 15h a 23h.'
+      "n": 2,
+      "Como Llegar":[
+
+      ],
+      "Tarifas":[
+
+      ],
+      "Tiempo":[
+
+      ],
+      "Actividades":[
+
+      ],
+      "Otros":[
 
       ]},
     "Contacto":{
-      'file':'contacto.html',
-      'text': [
+      "n": 3,
+      "Información de Contacto":[
+        'Puede contactarnos en: casalasjordanas@gmail.com o bien en +34 610 605 287 por Whatsapp o voz de 15h a 23h.'
+      ],
+      "Síguenos en Twitter":[
 
-      ]}}}};
+      ],
+      "Página Web":[
+
+      ]}}}}
 
 const en = {"html":{
-  "title":"Las Jordanas - Rural Retreat House",
-  "maintitle_a":"Rural Retreat",
-  "topnavmenu":[
-    "Home",
-    "Pictures",
-    "Information",
-    "Contact"],
-  "sidenavmenu":{
-    "Home":["Welcome", "Who we are", "Why pick us?"],
-    "Pictures":["House", "Rooms", "Shared Spaces", "Outside", "Views nearby"],
-    "Information":["How to get here", "Prices", "Weather", "Activities", "Other"],
-    "Contact":["Contact Info", "Twitter", "Web Page Credits"]
-  },
-  "content":{
+  "title":"Las Jordanas - Holiday Cottage",
+  "maintitle_a":"Holiday Cottage",
+  "structure":{
     "Home":{
-      'file':'bienvenidos.html',
-      'text': [
+      "n": 0,
+      "Welcome":[
+
+      ],
+      "Who we are":[
+
+      ],
+      "Why pick us?":[
 
       ]},
-    "Pictures":{
-      'file':'galeria.html',
-      'text': [
+    "Galery":{
+      "n": 1,
+      "House":[
+
+      ],
+      "Bedrooms":[
+
+      ],
+      "Shared spaces":[
+
+      ],
+      "Garden and outside":[
+
+      ],
+      "Views and landscapes":[
 
       ]},
     "Information":{
-      'file':'informacion.html',
-      'text': [
+      "n": 2,
+      "Accessing the house":[
+
+      ],
+      "Prices":[
+
+      ],
+      "Weather":[
+
+      ],
+      "Activities":[
+
+      ],
+      "Other":[
 
       ]},
-    "Contact":{
-      'file':'contacto.html',
-      'text': [
+    "Contact Us":{
+      "n": 3,
+      "Contact Info":[
+        'Our email is: casalasjordanas@gmail.com and our phone number is +34 610 605 287. Call us from 15h to 23h or text us through Whatsapp.'
+      ],
+      "Follow us on Twitter":[
 
-      ]}}}};
+      ],
+      "Webpage":[
+
+      ]}}}}
 
 const fr = {"html":{
-  "title":"Las Jordanas - Maison Rurale",
-  "maintitle_a":"Maison Rurale",
-  "topnavmenu":[
-    "Accueil",
-    "Images",
-    "Infos pratiques",
-    "Nous contacter"],
-  "sidenavmenu":{
-    "Accueil":["Bienvenue", "À propos de nous", "Pourquoi nous choisir?"],
-    "Images":["Notre maison", "Nos chambres", "Nos espaces communs", "Notre terrasse", "Paysages"],
-    "Infos pratiques":["Comment y aller", "Tarif", "Météo", "Activités", "Autre"],
-    "Nous contacter":["Information de contact", "Twitter", "Crédits de la page web"]
-  },
-  "content":{
+  "title":"Las Jordanas - Holiday Cottage",
+  "maintitle_a":"Holiday Cottage",
+  "structure":{
     "Accueil":{
-      'file':'bienvenidos.html',
-      'text': [
+      "n": 0,
+      "Bienvenue":[
+
+      ],
+      "À propos de nous":[
+
+      ],
+      "Pourquoi nous choisir?":[
 
       ]},
     "Images":{
-      'file':'galeria.html',
-      'text': [
+      "n": 1,
+      "Notre maison":[
+
+      ],
+      "Nos chambres":[
+
+      ],
+      "Nos espaces communs":[
+
+      ],
+      "Notre terrasse":[
+
+      ],
+      "Paysages":[
 
       ]},
     "Infos pratiques":{
-      'file':'informacion.html',
-      'text': [
+      "n": 2,
+      "Comment y aller":[
+
+      ],
+      "Tarif":[
+
+      ],
+      "Météo":[
+
+      ],
+      "Activités":[
+
+      ],
+      "Autre":[
 
       ]},
     "Nous contacter":{
-      'file':'contacto.html',
-      'text': [
+      "n": 3,
+      "Information de contact":[
 
-      ]}}}};
+      ],
+      "Twitter":[
+
+      ],
+      "Crédits de la page web":[
+
+      ]}}}}
 
 let page_lang;
-build_page(es)
+setLang();
+// build_page(es);
