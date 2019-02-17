@@ -26,7 +26,14 @@ function toggleSideNav(mode) {
 function changeTab(tab_temp) {
   let tab = tab_temp.replace('<span class="topnavmenuitem">', '').replace('</span>', '')
   let tab_st = page_lang['html']['structure'][tab];
+  let tab_h = Object.keys(tab_st);
+  tab_h.shift();
   let tab_n = tab_st['n'];
+  let sidemenu_item_st = '<a href="#var1"><li class="sidenavmenuitem">var1</li></a>'
+  $('#sidenavmenu_u')[0].innerHTML = '';
+  for (let i = 0; i < tab_h.length; i++) {
+    $('#sidenavmenu_u')[0].innerHTML += sidemenu_item_st.replace(/var1/g, tab_h[i]);
+  }
   for (let i = 0; i < 4; i++) {
     let cont_t = '#content' + i.toString();
     if (i < tab_n) {
@@ -48,8 +55,26 @@ function build_page() {
   let doc = page_lang['html'];
   $('title')[0].innerHTML = doc['title'];
   $('.maintitle_a')[0].innerHTML = doc['maintitle_a'];
-  for (var i = 0; i < $('.topnavmenuitem').length; i++) {
+  for (let i = 0; i < $('.topnavmenuitem').length; i++) {
     $('.topnavmenuitem')[i].innerHTML = Object.keys(doc['structure'])[i];
+  }
+  for (var i = 0; i < $('.content').length; i++) {
+    let cont_t = '#content' + i.toString();
+    for (var j = 0; j < $(cont_t + '> .heading').length; j++) {
+      let headings = Object.keys(doc['structure'][Object.keys(doc['structure'])[i]]);
+      headings.shift();
+      $(cont_t + '> .heading')[j].id = headings [j];
+      $(cont_t + '> .heading')[j].innerHTML = headings [j];
+    }
+    // for (var k = 0; k < $(cont_t + '> .cpg').length; k++) {
+    //   let headings = Object.keys(doc['structure'][Object.keys(doc['structure'])[i]]);;
+    //   for (var l = 0; l < headings.length; l++) {
+    //     let paragraphs = Object.values(doc['structure'][Object.keys(doc['structure'])[i]]);
+    //     paragraphs.shift();
+    //     console.log(paragraphs);
+    //     console.log($(cont_t + ' > #' + headings[l]));
+    //   }
+    // }
   }
 }
 
