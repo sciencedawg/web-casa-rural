@@ -73,10 +73,9 @@ function build_page() {
     }
     for (var k = 0; k < $(cont_t + '> .heading').length; k++) {
       let headings = Object.keys(doc['structure'][Object.keys(doc['structure'])[i]]);;
-      for (var l = 0; l < headings.length; l++) {
-        let paragraphs = Object.values(doc['structure'][Object.keys(doc['structure'])[i]]);
-        paragraphs.shift();
-        console.log($(cont_t + ' > #' + idfy(headings[l])));
+      let paragraphs = Object.values(doc['structure'][Object.keys(doc['structure'])[i]]);
+      paragraphs.shift();
+      console.log($(cont_t + ' > #' + idfy(headings[l])));
       }
     }
   }
