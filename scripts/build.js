@@ -7,8 +7,11 @@ const es = {'lang':'es',
       "n": 0,
       "Inicio":[
         'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.'
+
       ],
-      "¿Quiénes somos?":[
+      "Nuestra historia":[
+        'Todo comenzó en 2010, después de años enamorados de esas playas salvajes, solitarias y de aguas limpias. Se cruzó en nuestra vida la casa de Las Jordanas, curiosa historia cuyos protagonistas fueron antiguos pobladores pertenecientes a la misma familia que habitó la casa ininterrumpidamente desde principios del siglo XIX: la Mañe, Los Hernández, el inmenso olivo del huerto, los palmitos, los granados... y que te contaremos con entusiasmo y cariño. La casa resolvía siempre nuestro problema cuando queríamos ir a Calblanque: ¿dónde vamos a dormir?¿En La Manga?¿En Cartagena?¿Cabo de Palos?¿Los Belones, quizás?... Se acabó: dormiríamos al fin escuchando al búho real por la noche, a los pájaros al despertar, viendo a las águilas sobrevolando el monte, oliendo el aroma del romero y del tomillo acariciados por la brisa del mar... junto a una de las mejores playas del Mediterráneo que aún quedan vírgenes.',
+        'Tras un periodo de reformas que se nos hizo eterno, lleno de obstáculos y cómo no, una ingente cantidad de procesos burocráticos, ¡lo logramos! Podemos ahora disfrutar del Parque Natural de Calblanque en todas sus facetas y en todas las épocas del año. Pero también se ve cumplido este sueño para ti, querido viajero y amante de la naturaleza, de la tranquilidad, de lo distinto... pues este entorno privilegiado es ahora accesible para ti desde la finalización de este proyecto el 1 de junio de 2013, disfrutando esta maravillosa experiencia con nosotros.'
 
       ],
       "¿Por qué elegirnos?":[
@@ -70,7 +73,7 @@ const en = {'lang':'en',
       "Welcome":[
 
       ],
-      "Who we are":[
+      "Our story":[
 
       ],
       "Why pick us?":[
@@ -132,7 +135,7 @@ const fr = {'lang':'fr',
       "Bienvenue":[
 
       ],
-      "À propos de nous":[
+      "Notre histoire":[
 
       ],
       "Pourquoi nous choisir?":[
