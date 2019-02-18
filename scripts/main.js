@@ -1,6 +1,5 @@
 function idfy(string) {
   var newstring = string.replace(/[^\w]/gi, '').toLowerCase();
-  console.log(newstring);
   return newstring;
 }
 
@@ -72,15 +71,14 @@ function build_page() {
       $(cont_t + '> .heading')[j].id = idfy(headings [j]);
       $(cont_t + '> .heading')[j].innerHTML = headings [j];
     }
-    // for (var k = 0; k < $(cont_t + '> .cpg').length; k++) {
-    //   let headings = Object.keys(doc['structure'][Object.keys(doc['structure'])[i]]);;
-    //   for (var l = 0; l < headings.length; l++) {
-    //     let paragraphs = Object.values(doc['structure'][Object.keys(doc['structure'])[i]]);
-    //     paragraphs.shift();
-    //     console.log(paragraphs);
-    //     console.log($(cont_t + ' > #' + headings[l]));
-    //   }
-    // }
+    for (var k = 0; k < $(cont_t + '> .heading').length; k++) {
+      let headings = Object.keys(doc['structure'][Object.keys(doc['structure'])[i]]);;
+      for (var l = 0; l < headings.length; l++) {
+        let paragraphs = Object.values(doc['structure'][Object.keys(doc['structure'])[i]]);
+        paragraphs.shift();
+        console.log($(cont_t + ' > #' + idfy(headings[l])));
+      }
+    }
   }
 }
 
