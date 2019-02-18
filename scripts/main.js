@@ -1,3 +1,9 @@
+function idfy(string) {
+  var newstring = string.replace(/[^\w]/gi, '').toLowerCase();
+  console.log(newstring);
+  return newstring;
+}
+
 function setLang(lang) {
   let nav_lang = navigator.language.substr(0,2);
   if (lang) {
@@ -29,10 +35,10 @@ function changeTab(tab_temp) {
   let tab_h = Object.keys(tab_st);
   tab_h.shift();
   let tab_n = tab_st['n'];
-  let sidemenu_item_st = '<a href="#var1"><li class="sidenavmenuitem">var1</li></a>'
+  let sidemenu_item_st = '<a href="#var1"><li class="sidenavmenuitem">var2</li></a>'
   $('#sidenavmenu_u')[0].innerHTML = '';
   for (let i = 0; i < tab_h.length; i++) {
-    $('#sidenavmenu_u')[0].innerHTML += sidemenu_item_st.replace(/var1/g, tab_h[i]);
+    $('#sidenavmenu_u')[0].innerHTML += sidemenu_item_st.replace(/var1/g, idfy(tab_h[i])).replace(/var2/g, tab_h[i]);
   }
   for (let i = 0; i < 4; i++) {
     let cont_t = '#content' + i.toString();
@@ -63,7 +69,7 @@ function build_page() {
     for (var j = 0; j < $(cont_t + '> .heading').length; j++) {
       let headings = Object.keys(doc['structure'][Object.keys(doc['structure'])[i]]);
       headings.shift();
-      $(cont_t + '> .heading')[j].id = headings [j];
+      $(cont_t + '> .heading')[j].id = idfy(headings [j]);
       $(cont_t + '> .heading')[j].innerHTML = headings [j];
     }
     // for (var k = 0; k < $(cont_t + '> .cpg').length; k++) {
