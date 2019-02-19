@@ -129,3 +129,134 @@ const es = {
     ]
   }
 }
+
+
+const en = {
+  'lang':'en',
+  'page':{
+    'title':'Las Jordanas - Holiday Cottage',
+    'maintitle_a':'Holiday Cottage',
+    'godownbt':'Explore',
+    'godownbt_wait':'Loading',
+    'backtopbt':'Go back to the title',
+    'logo':'';
+    'structure':[
+      {
+        'tab_name':'Home',
+        'tab_content':[
+          {
+            'section_name':'Welcome',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Our story',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Why pick us?',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      },
+      {
+        'tab_name':'Galery',
+        'tab_content':[
+          {
+            'section_name':'House',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Bedrooms',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Shared spaces',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Garden and outside',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Views and landscapes',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      },
+      {
+        'tab_name':'Information',
+        'tab_content':[
+          {
+            'section_name':'Accesing the house',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Prices',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Weather',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Activities',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Other',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      },
+      {
+        'tab_name':'Contact Us',
+        'tab_content':[
+          {
+            'section_name':'Contact Info',
+            'section_paragraphs':[
+              'Our email is: casalasjordanas@gmail.com and our phone number is +34 610 605 287. Call us from 15h to 23h or text us through Whatsapp.'
+            ],
+          },
+          {
+            'section_name':'Follow us on Twitter',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Webmasters',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      }
+    ]
+  }
+}
