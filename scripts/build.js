@@ -14,7 +14,7 @@ const es = {
           {
             'section_name':'Inicio',
             'section_paragraphs':[
-              'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.'
+              ''
             ]
           },
           {
@@ -72,9 +72,9 @@ const es = {
         'tab_name':'Información',
         'tab_content':[
           {
-            'section_name':'Como Llegar',
+            'section_name':'Cómo Llegar',
             'section_paragraphs':[
-              ''
+              'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.'
             ],
           },
           {
