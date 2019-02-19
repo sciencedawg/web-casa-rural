@@ -9,10 +9,10 @@ const es = {
     'logo':'';
     'structure':[
       {
-        'tab_name':'Bienvenidos',
+        'tab_name':'Inicio',
         'tab_content':[
           {
-            'section_name':'Inicio',
+            'section_name':'Bienvenidos',
             'section_paragraphs':[
               'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.'
             ],
@@ -72,7 +72,7 @@ const es = {
         'tab_name':'Información',
         'tab_content':[
           {
-            'section_name':'Como Llegar',
+            'section_name':'Cómo Llegar',
             'section_paragraphs':[
               ''
             ],
@@ -251,6 +251,137 @@ const en = {
           },
           {
             'section_name':'Webmasters',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      }
+    ]
+  }
+}
+
+
+const fr = {
+  'lang':'fr',
+  'page':{
+    'title':'Las Jordanas - Maison Rurale',
+    'maintitle_a':'Maison Rurale',
+    'godownbt':'Explorer',
+    'godownbt_wait':'Chargement en cours',
+    'backtopbt':'Retour au titre',
+    'logo':'';
+    'structure':[
+      {
+        'tab_name':'Accueil',
+        'tab_content':[
+          {
+            'section_name':'Bienvenue',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Notre histoire',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Pourquoi nous choisir?',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      },
+      {
+        'tab_name':'Images',
+        'tab_content':[
+          {
+            'section_name':'Notre maison',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Nos chambres',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Nos espaces communs',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Notre terrasse',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Paysages',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      },
+      {
+        'tab_name':'Infos pratiques',
+        'tab_content':[
+          {
+            'section_name':'Comment y aller',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Tarif',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Météo',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Activités',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Autre',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+        ]
+      },
+      {
+        'tab_name':'Nous contacter',
+        'tab_content':[
+          {
+            'section_name':'Information de contact',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Twitter',
+            'section_paragraphs':[
+              ''
+            ],
+          },
+          {
+            'section_name':'Crédits de la page web',
             'section_paragraphs':[
               ''
             ],
