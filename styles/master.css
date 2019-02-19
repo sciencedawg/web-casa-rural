@@ -188,7 +188,7 @@ html, body {
 /* Content */
 .content{
   position: absolute;
-  transition: 0.3s;
+  transition: 0.4s;
   top: 100%;
   width: 100%;
   background-color: #ffffffff;
