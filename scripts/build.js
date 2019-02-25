@@ -126,19 +126,19 @@ const es = {
           {
             'section_name':'Información de Contacto',
             'section_paragraphs':[
-              'Puede contactarnos en: casalasjordanas@gmail.com o bien en +34 610 605 287 por Whatsapp o voz de 15h a 23h.'
+              '<span>Correo Electrónico: </span><a href="mailto:casalasjordanas@gmail.com">casalasjordanas@gmail.com</a><br><span>Teléfono: </span><a href="tel:+34610605287">+34 610 605 287</a><br><span>Llamadas de 15h a 23h o Whatsapp.</span>'
             ],
           },
           {
             'section_name':'Síguenos en Twitter',
             'section_paragraphs':[
-              ''
+              '<i class="fab fa-twitter" style="font-size:30px"></i> <span> &nbsp; @casalasjordanas</span>'
             ],
           },
           {
             'section_name':'Créditos Página Web',
             'section_paragraphs':[
-              ''
+              'Página web programada y diseñada por: <br> Marco Martín Ludeiro <br> Borja Martinena Cepa <span>https://github.com/bmcaos</span> <br> André Padilla Delgado'
             ],
           },
         ]
