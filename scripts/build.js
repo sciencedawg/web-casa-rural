@@ -108,7 +108,7 @@ const es = {
           {
             'section_name':'Actividades',
             'section_paragraphs':[
-              'Entre las actividades que puedes disfrutar en Calblanque:'
+              'Entre las actividades que puedes disfrutar en Calblanque:',
               '<ul><li>Senderismo</li><li>Vela-windsurf</li><li>Bicicleta de Montaña</li><li>Rutas a caballo</li><li>Submarinismo</li><li>Visitas culturales</li><li>Sol y playa</li><li>Excursiones en barco</li></ul>'
             ],
           },
