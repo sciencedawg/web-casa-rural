@@ -14,8 +14,8 @@ const es = {
           {
             'section_name':'Inicio',
             'section_paragraphs':[
-              '¿Estás buscando unas buenas vacaciones?',
-              'Disfruta de Calblanque en nuestra casa rural Las Jordanas. Maravillosas playas vírgenes, junto a hermosos parajes naturales en la montaña.'
+              '¿En busca de unas vacaciones inigualables?',
+              'Disfruta de la Región de Murcia y del prodigioso parque de Calblanque desde nuestra casa rural, Las Jordanas. Maravillosas playas vírgenes junto a hermosos parajes naturales en la montaña de los que no solo disfrutarás, pero que te harán volver una y otra vez.'
             ]
           },
           {
@@ -75,7 +75,7 @@ const es = {
           {
             'section_name':'Cómo Llegar',
             'section_paragraphs':[
-              'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usan navegador les recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.',
+              'La casa rural Las Jordanas se encuentra en el Parque Natural de Calblanque. A 2 km de las playas (unos 20 minutos a pie o 5 minutos en coche), y a 25 km de Cartagena; nuestra casa se halla en plena naturaleza, aislada, y a 2 km de Los Belones, el pueblo más cercano. Puede llegarse fácilmente desde las autovías A-30, AP-7 y RM-12, aunque si usas navegador te recomendamos o bien llamarnos al llegar a Los Belones, o bien consultar las instrucciones ofrecidas a continuación, ya que los navegadores indican erroneamente una vía en mal estado.',
               'Al llegar a Las Jordanas, encontrarás el aparcamiento a 20 metros pasada nuestra casa, en la explanada a la derecha del camino.'
             ],
           },
@@ -108,8 +108,16 @@ const es = {
           {
             'section_name':'Actividades',
             'section_paragraphs':[
-              'Entre las actividades que puedes disfrutar en Calblanque:',
-              '<ul><li>Senderismo</li><li>Vela-windsurf</li><li>Bicicleta de Montaña</li><li>Rutas a caballo</li><li>Submarinismo</li><li>Visitas culturales</li><li>Sol y playa</li><li>Excursiones en barco</li></ul>'
+              'Se encuentran entre la inmensidad de actividades de las que puedes disfrutar en Calblanque:',
+              'Senderismo',
+              'Vela-windsurf',
+              'Bicicleta de Montaña',
+              'Rutas a caballo',
+              'Submarinismo',
+              'Visitas culturales',
+              'Sol y playa',
+              'Excursiones en barco',
+              'Pregúntanos y te informaremos. No te preocupes por nada y disfruta...'
             ],
           },
           {
