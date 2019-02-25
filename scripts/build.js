@@ -14,8 +14,8 @@ const es = {
           {
             'section_name':'Inicio',
             'section_paragraphs':[
-              '¿Estás buscando unas buenas vacaciones?',
-              'Disfruta de Calblanque en nuestra casa rural Las Jordanas. Maravillosas playas vírgenes, junto a hermosos parajes naturales en la montaña.'
+              '¿En busca de unas vacaciones inigualables?',
+              'Disfruta de la Región de Murcia y del prodigioso parque de Calblanque desde nuestra casa rural, Las Jordanas. Maravillosas playas vírgenes junto a hermosos parajes naturales en la montaña de los que no solo disfrutarás, pero que te harán volver una y otra vez.'
             ]
           },
           {
@@ -108,8 +108,15 @@ const es = {
           {
             'section_name':'Actividades',
             'section_paragraphs':[
-              'Entre las actividades que puedes disfrutar en Calblanque:',
-              '<ul><li>Senderismo</li><li>Vela-windsurf</li><li>Bicicleta de Montaña</li><li>Rutas a caballo</li><li>Submarinismo</li><li>Visitas culturales</li><li>Sol y playa</li><li>Excursiones en barco</li></ul>'
+              'Se encuentran entre la inmensidad de actividades de las que puedes disfrutar en Calblanque:',
+              'Senderismo',
+              'Vela-windsurf',
+              'Bicicleta de Montaña',
+              'Rutas a caballo',
+              'Submarinismo',
+              'Visitas culturales',
+              'Sol y playa',
+              'Excursiones en barco'
             ],
           },
           {
