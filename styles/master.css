@@ -204,8 +204,46 @@ html, body {
 .heading{
   font-family: 'Patua One', cursive;
   color: #14478cff;
+  margin-top: 60px;
   border-bottom: 2px solid #14478cff;
+}
+.fh{
+  margin-top: 20px;
 }
 .padentro{
   margin-left: 25px;
+}
+.card1{
+  padding: 15px;
+  margin: 15px;
+  background-color: #F2F2F2FF;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #00000050;
+  display: grid;
+  grid-template-columns: 50px 350px;
+  grid-template-rows: 50px 50px 40px;
+  width: 400px;
+  height: 160px;
+  color: #0f2d55ff;
+  text-decoration: none;
+}
+.card2{
+  padding: 15px;
+  margin: 15px;
+  background-color: #F2F2F2FF;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #00000050;
+  display: grid;
+  grid-template-columns: 50px 350px;
+  grid-template-rows: 100%;
+  width: 400px;
+  height: 50px;
+  color: #0f2d55ff;
+  text-decoration: none;
+}
+.card2:hover{
+  color: #0f2d55ff;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px #00000030;
+  background-color: #F5F5F5FF;
 }
