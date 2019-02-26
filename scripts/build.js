@@ -267,19 +267,25 @@ const en = {
           {
             'section_name':'Contact Info',
             'section_paragraphs':[
-              'Our email is: casalasjordanas@gmail.com and our phone number is +34 610 605 287. Call us from 15h to 23h or text us through Whatsapp.'
+              '<i style="font-size:40px; grid-column-start: 1; grid-row-start: 1; justify-self:center; align-self:center;" class="fas fa-envelope"></i>\
+      				&nbsp;&nbsp;\
+      				<a style="grid-column-start: 2; grid-row-start: 1; justify-self:center; align-self:center;" href="mailto:casalasjordanas@gmail.com">casalasjordanas@gmail.com</a>\
+      				<i style="font-size:40px; grid-column-start: 1; grid-row-start: 2; justify-self:center; align-self:center;" class="fas fa-phone"></i>\
+      				&nbsp;&nbsp;\
+      				<a style="grid-column-start: 2; grid-row-start: 2; justify-self:center; align-self:center;" href="tel:+34610605287">+34 610 605 287</a>\
+      				<span style="justify-self:center; align-self:end; float:right; grid-column-start: 1; grid-column-end: 3; grid-row-start: 3; font-size: 80%; color: #000000B0;">Calls from 15h to 23h or Whatsapp.</span>'
             ],
           },
           {
             'section_name':'Follow us on Twitter',
             'section_paragraphs':[
-              ''
+              '<a href="https://twitter.com/casalasjordanas" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-twitter"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">@casalasjordanas</span></div></a>'
             ],
           },
           {
             'section_name':'Webmasters',
             'section_paragraphs':[
-              ''
+              'Website programmed and designed by the students of 2nd year of Bachillerato of the Mariano José de Larra High School: <a href="https://github.com/sciencedawg" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Marco Martín Ludeiro</span></div></a><a href="https://github.com/bmcaos" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Borja Martinena Cepa</span></div></a><a href="https://github.com/kleber24021" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Kleber André Padilla Delgado</span></div></a>'
             ],
           },
         ]
@@ -396,19 +402,25 @@ const fr = {
           {
             'section_name':'Information de contact',
             'section_paragraphs':[
-              ''
+              '<i style="font-size:40px; grid-column-start: 1; grid-row-start: 1; justify-self:center; align-self:center;" class="fas fa-envelope"></i>\
+      				&nbsp;&nbsp;\
+      				<a style="grid-column-start: 2; grid-row-start: 1; justify-self:center; align-self:center;" href="mailto:casalasjordanas@gmail.com">casalasjordanas@gmail.com</a>\
+      				<i style="font-size:40px; grid-column-start: 1; grid-row-start: 2; justify-self:center; align-self:center;" class="fas fa-phone"></i>\
+      				&nbsp;&nbsp;\
+      				<a style="grid-column-start: 2; grid-row-start: 2; justify-self:center; align-self:center;" href="tel:+34610605287">+34 610 605 287</a>\
+      				<span style="justify-self:center; align-self:end; float:right; grid-column-start: 1; grid-column-end: 3; grid-row-start: 3; font-size: 80%; color: #000000B0;">Appels de 15h à 23h ou WhatsApp.</span>'
             ],
           },
           {
             'section_name':'Twitter',
             'section_paragraphs':[
-              ''
+              '<a href="https://twitter.com/casalasjordanas" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-twitter"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">@casalasjordanas</span></div></a>'
             ],
           },
           {
             'section_name':'Crédits de la page web',
             'section_paragraphs':[
-              ''
+              'Site web programmé et conçu par les étudiants de 2e année de Bachillerato de lIES Mariano José de Larra: <a href="https://github.com/sciencedawg" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Marco Martín Ludeiro</span></div></a><a href="https://github.com/bmcaos" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Borja Martinena Cepa</span></div></a><a href="https://github.com/kleber24021" target="_blank"><div class="card2"><i style="font-size:40px; grid-column-start: 1; justify-self:center; align-self:center;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Kleber André Padilla Delgado</span></div></a>'
             ],
           },
         ]
