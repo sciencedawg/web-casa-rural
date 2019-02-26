@@ -134,7 +134,7 @@ const es = {
           {
             'section_name':'Información de Contacto',
             'section_paragraphs':[
-              '<span>Correo Electrónico: </span><a href="mailto:casalasjordanas@gmail.com">casalasjordanas@gmail.com</a><br><span>Teléfono: </span><a href="tel:+34610605287">+34 610 605 287</a><br><span>Llamadas de 15h a 23h o Whatsapp.</span>'
+              '<i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:casalasjordanas@gmail.com">casalasjordanas@gmail.com</a><br><i class="fas fa-phone"></i>&nbsp;&nbsp;<a href="tel:+34610605287">+34 610 605 287</a><br><span>Llamadas de 15h a 23h o Whatsapp.</span>'
             ],
           },
           {
@@ -146,7 +146,7 @@ const es = {
           {
             'section_name':'Créditos Página Web',
             'section_paragraphs':[
-              'Página web programada y diseñada por: <br> Marco Martín Ludeiro <br> Borja Martinena Cepa <span>https://github.com/bmcaos</span> <br> André Padilla Delgado'
+              'Página web programada y diseñada por los alumnos de 2º de Bachillerato del IES Mariano José de Larra: <a href="https://github.com/sciencedawg"><div style="padding 15px; margin:15px; border-radius: 4px; box-shadow: 2px 2px 2px #00000050; display: grid; grid-template-columns: 50px 300px; grid-template-rows: 100%; width:350px; height:50px; background-color:#EEEEEE;" class="creditdiv"><i style="font-size:40px;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Marco Martín Ludeiro</span></div></a><a href="https://github.com/bmcaos"><div style="padding 15px; margin:15px; border-radius: 4px; box-shadow: 2px 2px 2px #00000050; display: grid; grid-template-columns: 50px 300px; grid-template-rows: 100%; width:350px; height:50px; background-color:#EEEEEE;" class="creditdiv"><i style="font-size:40px;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">Borja Martinena Cepa</span></div></a><a href="https://github.com/kleber24021"><div style="padding 15px; margin:15px; border-radius: 4px; box-shadow: 2px 2px 2px #00000050; display: grid; grid-template-columns: 50px 300px; grid-template-rows: 100%; width:350px; height:50px; background-color:#EEEEEE;" class="creditdiv"><i style="font-size:40px;" class="fab fa-github"></i><span style="grid-column-start: 2; justify-self:center; align-self:center; text-decoration: none;">André Padilla Delgado</span></div></a>'
             ],
           },
         ]
