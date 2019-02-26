@@ -123,7 +123,6 @@ const es = {
           {
             'section_name':'Otros',
             'section_paragraphs':[
-              ''
             ],
           },
         ]
