@@ -23,13 +23,12 @@ const es = {
             'section_paragraphs':[
               'Todo comenzó en 2010, después de años enamorados de esas playas salvajes, solitarias y de aguas limpias de la Región de Murcia. Se cruzó en nuestra vida la casa de Las Jordanas, curiosa historia cuyos protagonistas fueron antiguos pobladores pertenecientes a la misma familia que habitó la casa ininterrumpidamente desde principios del siglo XIX: la Mañe, Los Hernández, el inmenso olivo del huerto, los palmitos, los granados... y que te contaremos con entusiasmo y cariño. La casa resolvía siempre nuestro problema cuando queríamos ir a Calblanque: ¿dónde vamos a dormir?¿En La Manga?¿En Cartagena?¿Cabo de Palos?¿Los Belones, quizás?... Se acabó: dormiríamos al fin escuchando al búho real por la noche, a los pájaros al despertar, viendo a las águilas sobrevolando el monte, oliendo el aroma del romero y del tomillo acariciados por la brisa del mar... junto a una de las mejores playas del Mediterráneo que aún quedan vírgenes.',
               'Tras un periodo de reformas que se nos hizo eterno, lleno de obstáculos y cómo no, una ingente cantidad de procesos burocráticos, ¡lo logramos! Podemos ahora disfrutar del Parque Natural de Calblanque en todas sus facetas y en todas las épocas del año. Pero también se ve cumplido este sueño para ti, querido viajero y amante de la naturaleza, de la tranquilidad, de lo distinto... pues este entorno privilegiado es ahora accesible para ti desde la finalización de este proyecto el 1 de junio de 2013, disfrutando esta maravillosa experiencia con nosotros.',
-              'Estarás en un lugar perfecto donde descansar y disfrutar del Mare Nostrum. Encontrarás una casa del siglo XIX rehabilitada de la que hemos intentado respetar su estilo de casa de huerta murciana, levantina, mediterránea... Haciendo uso de materiales tradicionales y respetando al máximo todo lo que había en la casa antes de su rehabilitación, dispondrás en plena naturaleza de todas las comodidades, pudiendo elegir entre conectarte a Internet o desconectar y dejarte envolver por la naturaleza. Podrás pasear llegando a la cima del Cabezo de La Fuente y extasiarte con sus espectaculares vistas, recorrer la senda Circular al Cabezo de La Fuente, caminar a las playas de Calblanque, Salinas del Rasall, Negrete, Parreño, Dentoles, Las Mulas... Excursiones para todos los gustos. Podrás hacer uso además de nuestras bicicletas o montar a caballo si así lo prefieres. Si buscas unas vacaciones relajantes y no hacer mucho, nuestra casa será también tu rincón favorito. Podrás pasar agradables momentos en la antigua huerta, ya sea leyendo un libro o a la sombra del olivo de más de 300 años. Dejándote abrazar por los enormes palmitos, tomando el sol en las terrazas, echándote una siesta... ¡Te sentirás como en casa!',
             ]
           },
           {
             'section_name':'¿Por qué elegirnos?',
             'section_paragraphs':[
-              ''
+              'Estarás en un lugar perfecto donde descansar y disfrutar del Mare Nostrum. Encontrarás una casa del siglo XIX rehabilitada de la que hemos intentado respetar su estilo de casa de huerta murciana, levantina, mediterránea... Haciendo uso de materiales tradicionales y respetando al máximo todo lo que había en la casa antes de su rehabilitación, dispondrás en plena naturaleza de todas las comodidades, pudiendo elegir entre conectarte a Internet o desconectar y dejarte envolver por la naturaleza. Podrás pasear llegando a la cima del Cabezo de La Fuente y extasiarte con sus espectaculares vistas, recorrer la senda Circular al Cabezo de La Fuente, caminar a las playas de Calblanque, Salinas del Rasall, Negrete, Parreño, Dentoles, Las Mulas... Excursiones para todos los gustos. Podrás hacer uso además de nuestras bicicletas o montar a caballo si así lo prefieres. Si buscas unas vacaciones relajantes y no hacer mucho, nuestra casa será también tu rincón favorito. Podrás pasar agradables momentos en la antigua huerta, ya sea leyendo un libro o a la sombra del olivo de más de 300 años. Dejándote abrazar por los enormes palmitos, tomando el sol en las terrazas, echándote una siesta... ¡Te sentirás como en casa!'
             ]
           }
         ]
@@ -123,7 +122,6 @@ const es = {
           {
             'section_name':'Otros',
             'section_paragraphs':[
-              ''
             ],
           },
         ]
