@@ -42,9 +42,6 @@ html, body {
   border: 2px solid #007ac8ff;
   }
 
-.titleslide{
-  margin-top: -200px;
-}
 .maintitle{
   top: calc(50% - 120px);
   left: calc(50% - 325px);
