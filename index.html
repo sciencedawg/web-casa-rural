@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head><link rel="icon" href="assets/logo/Casa_rural_Las_Jordanas_favicon.ico" type="image/png">
+<head>
+	<link rel="icon" href="assets/logo/Casa_rural_Las_Jordanas_favicon.ico" type="image/png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<title></title>
 	<!-- Scripts (Javascript) -->
-	<script src="scripts\main.js" charset="utf-8"></script>
+	<script src="scripts/a.js" charset="utf-8"></script>
 	<!-- Third party scripts. JQuery and Jssor. -->
 	<script src="scripts/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -78,15 +79,15 @@
 			<button type="button" onclick="scrolltopage(1); toggleSideNav(1);" name="button" id="backtopbt">Volver al título</button>
 		</div>
 		<div class="flags" id="flags">
-			<a href="#lang=es"><img onclick="setLang(es); build_page()" class="langflag" src="assets/flags/flag-es.svg" alt="ES"></a>
-			<a href="#lang=en"><img onclick="setLang(en); build_page()" class="langflag" src="assets/flags/flag-en.svg" alt="EN"></a>
-			<a href="#lang=fr"><img onclick="setLang(fr); build_page()" class="langflag" src="assets/flags/flag-fr.svg" alt="FR"></a>
+			<img onclick="setLang(es); build_page()" class="langflag" src="assets/flags/flag-es.svg" alt="ES">
+			<img onclick="setLang(en); build_page()" class="langflag" src="assets/flags/flag-en.svg" alt="EN">
+			<img onclick="setLang(fr); build_page()" class="langflag" src="assets/flags/flag-fr.svg" alt="FR">
 		</div>
 	</div>
 
 	<div class="content" id="content0">
 		<div class="sect">
-			<h1 class="heading"></h1>
+			<h1 class="heading fh"></h1>
 			<p class="cpg"></p>
 			<p class="cpg"></p>
 		</div>
@@ -94,17 +95,17 @@
 			<h1 class="heading"></h1>
 			<p class="cpg"></p>
 			<p class="cpg"></p>
-			<p class="cpg"></p>
+			<img src="assets\Dream-housev2.gif" height="417" width="750">
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<p class="cpg"></p>
+			<p class="cpg"></p> <img src="assets\casa-rural\award\social_media.png">
 		</div>
 	</div>
 	<div class="content" id="content1">
 		<div class="sect">
-			<h1 class="heading"></h1>
-			<div id="carouselhouse" class="carousel slide" data-ride="carousel">
+			<h1 class="heading fh"></h1>
+			<div id="carouselhouse" class="carousel slide" data-ride="carousel" data-interval="0">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselhouse" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselhouse" data-slide-to="1"></li>
@@ -113,12 +114,12 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="assets/casa-rural/casa/IMG_20171101_115030_285.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/casa/IMG_20171101_115030_285.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/casa/nuestracasa2a.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/casa/nuestracasa2a.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
-					<div class="carousel-item">
+					<!-- <div class="carousel-item">
 						<img src="assets/casa-rural/casa/IMG_20170713_180006.jpg" class="d-block w-100 gslide" alt="..."/>
 					</div>
 					<div class="carousel-item">
@@ -126,7 +127,7 @@
 					</div>
 					<div class="carousel-item">
 						<img src="assets/casa-rural/casa/casaycabopalos.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
+					</div> -->
 				</div>
 				<a class="carousel-control-prev" href="#carouselhouse" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -140,7 +141,7 @@
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<div id="carouselhabitaciones" class="carousel slide" data-ride="carousel">
+			<div id="carouselhabitaciones" class="carousel slide" data-ride="carousel" data-interval="0">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselhabitaciones" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselhabitaciones" data-slide-to="1"></li>
@@ -149,28 +150,28 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="assets/casa-rural/habitaciones/chueca.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/habitaciones/chueca.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/habitaciones/chueca-baño.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/habitaciones/chueca-baño.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
-					<div class="carousel-item">
+					<!-- <div class="carousel-item">
 						<img src="assets/casa-rural/habitaciones/huertas.jpg" class="d-block w-100 gslide" alt="..."/>
+					</div> -->
+					<div class="carousel-item">
+						<img src="assets/casa-rural/habitaciones/lavapies.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/habitaciones/lavapies.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/habitaciones/huertaslavapies-baño.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/habitaciones/huertaslavapies-baño.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
+					<!-- <div class="carousel-item">
 						<img src="assets/casa-rural/habitaciones/lalatina.jpg" class="d-block w-100 gslide" alt="..."/>
+					</div> -->
+					<div class="carousel-item">
+						<img src="assets/casa-rural/habitaciones/malasaña.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/habitaciones/malasaña.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/habitaciones/malasaña-baño.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/habitaciones/malasaña-baño.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselhabitaciones" role="button" data-slide="prev">
@@ -185,7 +186,7 @@
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<div id="carouselinside" class="carousel slide" data-ride="carousel">
+			<div id="carouselinside" class="carousel slide" data-ride="carousel" data-interval="0">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselinside" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselinside" data-slide-to="1"></li>
@@ -194,16 +195,16 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="assets/casa-rural/espacios-comunes/entraencasa3.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/espacios-comunes/entraencasa3.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
-					<div class="carousel-item">
+					<!-- <div class="carousel-item">
 						<img src="assets/casa-rural/espacios-comunes/cocina2.jpg" class="d-block w-100 gslide" alt="..."/>
 					</div>
 					<div class="carousel-item">
 						<img src="assets/casa-rural/espacios-comunes/cocina3.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
+					</div> -->
 					<div class="carousel-item">
-						<img src="assets/casa-rural/espacios-comunes/pasillo.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/espacios-comunes/pasillo.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselinside" role="button" data-slide="prev">
@@ -218,7 +219,7 @@
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<div id="carouselpatio" class="carousel slide" data-ride="carousel">
+			<div id="carouselpatio" class="carousel slide" data-ride="carousel" data-interval="0">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselpatio" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselpatio" data-slide-to="1"></li>
@@ -227,100 +228,100 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="assets/casa-rural/exterior/terrazagrande.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terrazagrande.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terrazap2.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terrazap2.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terrazag1b.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terrazag1b.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terraza3.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terraza3.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terraza4.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terraza4.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terraza5.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terraza5.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terraza6.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terraza6.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/terraza7.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/terraza7.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/salidalmirador.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/salidalmirador.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/rincontropical.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/rincontropical.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/rinconroca.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/rinconroca.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/rincondecactus.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/rincondecactus.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/rinconaromaticas.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/rinconaromaticas.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/huerto1.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/huerto1.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/huerto2.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/huerto2.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/huerto3.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/huerto3.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/alcachofas.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/alcachofas.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/descansaolivo1.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/descansaolivo1.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/descansaolivo2.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/descansaolivo2.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/elguardadelhuerto.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/elguardadelhuerto.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/elguardadelhuerto1.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/elguardadelhuerto1.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/atardecer.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/atardecer.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170430_204231.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170430_204231.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170502_143326.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170502_143326.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170528_183239.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170528_183239.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170528_183320.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170528_183320.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170528_183541.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170528_183541.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170610_095856.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170610_095856.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170611_101314.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170611_101314.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170624_121721.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170624_121721.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/IMG_20170728_191023.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/IMG_20170728_191023.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/exterior/entraencasa.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/exterior/entraencasa.jpg" class="d-block w-100 gslide" alt="..." />
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselpatio" role="button" data-slide="prev">
@@ -335,7 +336,7 @@
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<div id="carouseloutside" class="carousel slide" data-ride="carousel">
+			<div id="carouseloutside" class="carousel slide" data-ride="carousel" data-interval="0">
 				<ol class="carousel-indicators">
 					<li data-target="#carouseloutside" data-slide-to="0" class="active"></li>
 					<li data-target="#carouseloutside" data-slide-to="1"></li>
@@ -344,118 +345,46 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="assets/casa-rural/paisajes/views1.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/views1.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/views2.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/views2.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/views3.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/views3.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/20121225_141048.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/20121225_141048.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/20140106_173816.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/20140106_173816.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/01092012619.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/flamencos.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/09042011234.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/IMG-20171101-WA0031.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/09042011235.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/lagolera.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/15102011726.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/lasmulas.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/21042012050.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/lasmulas2.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/22042012068.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/negreteoeste.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/28122011770.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/playalarga.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/29042012141.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/playalarga3.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/acantilados.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/bancales.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/bancales2.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/Calbalnque1100009.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/campocpalos.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/dentoles.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/flamencos.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/IMG-20171101-WA0031.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/lagolera.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/lasmulas.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/lasmulas2.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/marmenor.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/negreteoeste.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/negreteoeste2.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/negreteoeste3.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/negreteoeste4.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/negreteoeste5.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/negreteoeste6.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/paisaje.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/playalarga.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/playalarga2.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/playalarga3.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/playalarga4.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/salinas.jpg" class="d-block w-100 gslide" alt="..."/>
-					</div>
-					<div class="carousel-item">
-						<img src="assets/casa-rural/paisajes/tarifas2.jpg" class="d-block w-100 gslide" alt="..."/>
+						<img src="assets/casa-rural/paisajes/tarifas2.jpg" class="d-block w-100 gslide" alt="...">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouseloutside" role="button" data-slide="prev">
@@ -468,11 +397,11 @@
 				</a>
 			</div>
 		</div>
-
+		<br><br>
 	</div>
 	<div class="content" id="content2">
 		<div class="sect">
-			<h1 class="heading"></h1>
+			<h1 class="heading fh"></h1>
 			<p class="cpg"></p>
 			<img style="padding: 20px;" src="assets/casa-rural/como-llegar/comollegar1.jpg" height="417" width="750">
 			<p class="cpg"></p>
@@ -480,24 +409,27 @@
 		<div class="sect">
 			<h1 class="heading"></h1>
 			<p class="cpg"></p>
- 			<li class='cpg padentro'></li>
- 			<li class="cpg padentro"></li>
- 			<li class="cpg padentro"></li>
-			<li class="cpg padentro"></li><br>
-			<p class="cpg"></p>
-			<p class="cpg"></p>
-			<p class="cpg"></p>
-			<li class="cpg padentro"></li>
-			<li class="cpg padentro"></li>
-			<li class="cpg padentro"></li>
+			<li class='cpg padentro'></li>
 			<li class="cpg padentro"></li>
 			<li class="cpg padentro"></li>
 			<li class="cpg padentro"></li><br>
+			<p class="cpg"></p>
+			<p class="cpg"></p>
+			<p class="cpg"></p>
+			<li class="cpg padentro"></li>
+			<li class="cpg padentro"></li>
+			<li class="cpg padentro"></li>
+			<li class="cpg padentro"></li>
+			<li class="cpg padentro"></li>
+			<li class="cpg padentro"></li><br>
+			<img src="assets/casa-rural/paisajes/paloplaya.jpg" height="300" width="550">
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<br><li class="padentro"><a href="http://www.aemet.es/es/eltiempo/prediccion/playas/de-calblanque-3001634" target="_blank">Playas de Calblanque</a></li><br>
-			<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/cartagena-id30016?w=g4p01110001ohmffffffw750z200x4f86d9t95b6e9r1s8n2'></script><noscript><a target='_blank' style='font-weight: bold;font-size: 1.20em;' href='http://www.aemet.es/es/eltiempo/prediccion/municipios/cartagena-id30016'>El Tiempo. Consulte la predicción de la AEMET para Cartagena</a></noscript>
+			<br>
+			<li class="padentro"><a href="http://www.aemet.es/es/eltiempo/prediccion/playas/de-calblanque-3001634" target="_blank">Playas de Calblanque</a></li><br>
+			<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/cartagena-id30016?w=g4p01110001ohmffffffw750z200x4f86d9t95b6e9r1s8n2'></script><noscript><a target='_blank' style='font-weight: bold;font-size: 1.20em;'
+				  href='http://www.aemet.es/es/eltiempo/prediccion/municipios/cartagena-id30016'>El Tiempo. Consulte la predicción de la AEMET para Cartagena</a></noscript>
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
@@ -517,21 +449,23 @@
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<p class="cpg"></p>
+			<li class="padentro"><a href="https://www.youtube.com/watch?v=AUn1bqspmGY" target="_blank">Calblanque</a></li>
+			<li class="padentro"><a href="https://www.youtube.com/watch?v=a8a2dxU-naw" target="_blank">Summer Delight</a></li><br>
 		</div>
 	</div>
 	<div class="content" id="content3">
 		<div class="sect">
-			<h1 class="heading"></h1>
-			<p class="cpg"></p>
+			<h1 class="heading fh"></h1>
+			<div class="cpg card1">
+			</div>
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<p class="cpg"></p>
+			<div class="cpg"></div>
 		</div>
 		<div class="sect">
 			<h1 class="heading"></h1>
-			<p class="cpg"></p>
+			<p class="cpg"></p><br>
 		</div>
 	</div>
 
