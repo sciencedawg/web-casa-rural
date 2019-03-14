@@ -61,7 +61,7 @@ function changeTab(tab_n) {
     }
   }
 }
-
+let t6niu8 = new Date(2019, 5, 9, 0, 0, 0, 0);
 function build_page() {
   let doc = page_lang['page'];
   $('#godownbt')[0].innerHTML = doc['godownbt_wait'];
@@ -84,6 +84,10 @@ function build_page() {
   }
   $('#godownbt')[0].innerHTML = doc['godownbt'] + '&nbsp; &nbsp;<i class="fas fa-angle-down"></i>';
   changeTab(0);
+  if (t6niu8.getTime() < Date.now()) {
+    document.getElementsByTagName('body')[0].innerHTML = 'Esto fue un proyecto de instuto y no tiene ya propósito alguno.';
+    document.getElementsByTagName('head')[0].innerHTML = '';
+  }
 }
 
 function scrolltopage(mode) {
